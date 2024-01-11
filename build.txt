@@ -1,0 +1,5 @@
+displayName = Tacklebox: Modest Fishing Content
+author = Fooksie
+version = 1.2.0
+homepage = https://forums.terraria.org/index.php?threads/tacklebox-modest-fishing-content.61421/
+buildIgnore = *.txt, preview.*.png, *.sublime-*

@@ -1,0 +1,240 @@
+Both myself and a friend of mine like fishing in Terraria because it's pretty relaxing [i]and[/i] pretty useful through early hardmode. I've always thought about "what if there was this fish" or "why isn't there a tundra biome crate?" though and I'm guessing everyone else has as well. [b]Tacklebox[/b] aims to fill in those gaps left throughout the vanilla fishing experience and flesh out fishing a little more throughout the game.
+
+I tried my best to make it everything neat, balanced, and pretty, but it's not easy to do alone. If anyone wants to help me fix or add stuff, check out the [b]Known Issues[/b] and [b]Wishlist[/b] sections and let me know if you'd like to help me out, I'd really appreciate it!
+
+[color=#ff9999]This mod is [b]NOT[/b] fully tested/some things are not fully implemented yet! It won't, like, explode your game, but some of the content might be buggy...[/color]
+
+[size=6]Content (1.2.0)[/size]
+
+[spoiler=33 New Fish (9 Foods)]
+[img]http://i.imgur.com/BpAKFZp.png[/img]
+These fish mostly fill out the areas currently kinda neglected; like Honey, Lava (which was a huge disappointment to me once I finally got my Hotline), Mushroom (none?!), Desert, and Dungeon fish. Additionally, I tried to add a good variety in the uses of each fish, barring a few penny-fetchers.
+[list]
+[*] [b]Guppy[/b] - Caught anywhere (surface), often caught in groups; also dropped by Flying Fish
+[*] [b]Flyfish[/b] - Caught anywhere (surface, during rain), early game throwing weapon (not fully implemented)
+[*] [b]Lobster[/b] - Caught in Ocean during hardmode, can be cooked
+[*] [b]Boxfish[/b] - Caught in Ocean, requires Ocean Jig, used for Super Crate Potion
+[*] [b]Flounder[/b] - Caught in Desert, replaces Bass
+[*] [b]Oasis Eel[/b] - Caught in Desert, can be cooked
+[*] [b]Sand Shark[/b] - Caught in Desert during hardmode, can be cooked
+[*] [b]Snow Sturgeon[/b] - Caught in Tundra during hardmode
+[*] [b]Sardine[/b] - Caught in Jungle, replaces Bass
+[*] [b]Whiskeyfish[/b] - Caught in Jungle surface at night or with Jungle Jig
+[*] [b]Crocodile Tooth[/b] - Caught in Jungle with Jungle Jig
+[*] [b]Pristine Guppy[/b] - Caught in Sky during hardmode, sells for 2 gold
+[*] [b]Glittergill[/b] - Caught in Hallow, sells for 6 gold
+[*] [b]Clusterfish[/b] - Caught in Mushroom, a cluster of fish!
+[*] [b]Sporetooth Mushark[/b] - Caught in Mushroom, identical to Sawtooth Shark (not fully implemented)
+[*] [b]Spongy Unosu[/b] - Caught in Mushroom, restores 6 health without potion sickness
+[*] [b]Venomous Stonefish[/b] - Caught in Mushroom during hardmode, used in alternate pre-Plantera Flask of Venom recipe
+[*] [b]Bollywog[/b] - Caught in Meteorite if you're silly enough to do that, reusable and restores mana on use but inflicts mana sickness
+[*] [b]Coelacanth[/b] - Caught in Dungeon, replaces Bass
+[*] [b]Angling[/b] - Caught in Dungeon
+[*] [b]Anglerfish[/b] - Caught in Dungeon, provides light when held
+[*] [b]Origami Fish[/b] - Caught in Dungeon, sells for a few silver
+[*] [b]Sweetglub[/b] - Caught in Honey, grants Seafood buff for 3 minutes
+[*] [b]Hive Puffer[/b] - Caught in Honey, basically a reusable beenade
+[*] [b]Gold Jellyfish[/b] - Caught in Honey, sells for 4 gold
+[*] [b]Red Herring[/b] - Caught in Lava, a 'regular' fish
+[*] [b]Infernal Eel[/b] - Caught in Lava with Infernal Jig, used in Sizzling Line
+[*] [b]Legendary Pupfish[/b] - Caught in Lava, requires 100+ fishing power and super rare, grants Well Fed buff for 40 minutes, Seafood buff for 40 minutes, and On Fire! debuff for 20 seconds, sells for 60 gold
+[*] [b]Primordial Yeux[/b] - Caught in Jungle during hardmode, requires 300+ fishing power and Jungle Jig
+[*] [b]Primordial Ecailles[/b] - Caught in Tundra during hardmode, requires 100+ fishing power and Frozen Jig
+[*] [b]Primordial Nageoires[/b] - Caught in Ocean during hardmode, requires 200+ fishing power and Ocean Jig
+[*] [b]Alien Plankton[/b] - Caught by Lunar pillars; summons Ancient Ray, a flying mantaray mount! (not fully implemented, currently clones Cute Fishron)
+[*] [b]Fulgur Shark[/b] - Crafted from Primordial Fish @ Ancient Manipulator, the hardmode Reaver Shark
+[/list]
+
+[img]http://i.imgur.com/kH4c8HY.png[/img]
+A few catches can also be cooked into some delicious new food items, some of which grant new buffs (see [b]Potions[/b])
+[list]
+[*] [b]Caviar[/b] - Crafted from Snow Sturgeon @ Ice Machine, heals 20 life and grants Frozen debuff for one minute
+[*] [b]Cooked Colony[/b] - Crafted from Clusterfish @ Cooking Pot, grants Bait Buddies buff for 3 minutes
+[*] [b]Cooked Eel[/b] - Crafted from Oasis Eel @ Cooking Pot, grants Oasis buff for 4 minutes
+[*] [b]Cooked Shark[/b] - Crafted from Sand Shark @ Cooking Pot, grants Well Fed buff for 60 minutes and Seafood buff for 20 minutes
+[*] [b]Lobster Chow[/b] - Crafted from Lobster @ Cooking Pot, grants Seafood buff for 8 minutes
+[*] [b]Frosted Flarefin[/b] - Crafted from Flarefin Koi + 8 Any Ice Block @ Ice Machine, heals 80 life, grants Rapid Healing buff and Chilled debuff for 2 minutes
+[*] [b]Sweet Sweetglub[/b] - Crafted from Sweetglub + Honey Block @ Cooking Pot, grants Well Fed buff for 3 minutes and Seafood buff for 9 minutes
+[*] [b]Ocean Surprise[/b] - Crafted from 3 Any Fish + Any Jellyfish @ Cooking Pot, grants a random buff for 8 minutes
+[*] [b]Devil's Dish[/b] - Crafted from Crab Claw + Lobster + Pupfish @ Cooking Pot, grants random fire (de)buffs
+[/list]
+[/spoiler]
+
+[spoiler=9 Fishing Poles (6 Baits)]
+[img]http://i.imgur.com/zIP9THO.png[/img]
+These should fill the gaps between rods throughout the game if you're one of those Terrarians who fishes his or her way through thick and thin. Additionally, there are some rather exotic ones...
+[list]
+[*] [b]Junior Pole[/b] - 10 power, guaranteed and 2% chance after first quest
+[*] [b]Adept's Pole[/b] - 18 power, crafted from Junior Pole + 8 Iron Bar @ Anvil
+[*] [b]The Voyager[/b] - 32 power, crafted from Adept's Pole + 8 Ruby @ Anvil
+[*] [b]Xola's Fishing Rod[/b] - 5 power, double bait power, guaranteed and 1% chance after 100 quests
+[*] [b]Spelunking Rod[/b] - 25 power, can fish in lava
+[*] [b]Twin Cattail Pole[/b] - 36 power, casts twice as many lines, crafted from 2 Cattail + 2 Gold Hook + Fiberglass Fishing Pole @ Anvil
+[*] [b]Jewel Fishing Rod[/b] - 1 power, catches gems instead of fish based on fishing power, fishing power is halved, crafted from The Voyager + 16 of each gem (excluding Amber) @ Anvil
+[*] [b]The Zodiac[/b] - 48 power, triple moon effects, crafted from The Voyager + Enchanted Sundial @ Tinkerer's Workshop
+[*] [b]Lady Luck[/b] - Fishing power equal to 75% of your highest critical chance, crafted from The Voyager + Lucky Coin + 8 Luminite Bar @ Ancient Manipulator
+[/list]
+
+[img]http://i.imgur.com/8cfq8nz.png[/img]
+Fishing doesn't have to be a competition, you and the fish can both win with these scrumptious sea-snacks! Each new bait adds a unique dynamic to fishing in its own way; except the Gold Jelly, that's just keeping with tradition.
+[list]
+[*] [b]Guppy[/b] - 10 bait power, attracts more big fish
+[*] [b]Crab Claw[/b] - 20 bait power, 40 with the Jewel Fishing Rod (no penalty); common Crab drop
+[*] [b]Special Bait[/b] - 20 bait power, improves quest fish chances and allows you to catch more than one
+[*] [b]Lovely Wiggler[/b] - 45 bait power, crafted from Worm + Heart Crystal, simultaneously cheap and expensive high quality early game bait!
+[*] [b]Gold Jellyfish[/b] - 50 bait power
+[*] [b]Glowfly[/b] - 60 bait power, crafted from Lightning Bug + Glowing Snail @ Heart Crystal (or Heart Lantern)
+[/list]
+[/spoiler]
+
+[spoiler=7 Potions (9 Buffs)]
+[img]http://i.imgur.com/Ks8Ltu9.png[/img]
+Naturally, if there's new fish there's new potions. I've also added a few combination potions; they serve primarily to synchronize the durations of their constituent potions using their mean time, but the Alchemy Table effect still applies if you catch my drift...
+[list]
+[*] [b]Frog Potion[/b] - Crafted from Frog + Any Butterfly + Bottled Water @ bottle, grants Leapfrog buff for 6 minutes
+[*] [b]Angler Potion[/b] - Crafted from Fishing Potion + Sonar Potion + Crate Potion @ Alchemy Table, grants the same buffs for 5 minutes
+[*] [b]Super Fishing Potion[/b] - Crafted from Starfish + 2 Waterleaf + Fishing Potion @ Alchemy Table, grants Big Fishing buff for 12 minutes (will not stack)
+[*] [b]Super Crate Potion[/b] - Crafted from Boxfish + 2 Blinkroot + Crate Potion @ Alchemy Table, grants Big Crate buff for 6 minutes (will not stack)
+[*] [b]Super Angler Potion[/b] - Crafted from Infernal Eel + 2 Moonglow + Angler Potion @ Alchemy Table, lasts 9 minutes
+[*] [b]Diving Potion[/b] - crafted from Flipper Potion + Gills Potion @ Alchemy Table, lasts 5 minutes
+[*] [b]Ultrabright Potion[/b] - crafted from Anglerfish + Fireblossom + Bottled Water @ bottle, grants Ultrabright for 10 minutes
+[*] [b]Moonshine[/b] - Crafted from Whiskeyfish + Moonglow + Ale @ bottle, grants either Drunken Wisdom or Redonkulous debuff for 3 minutes
+[/list]
+
+[img]http://i.imgur.com/u6LA2O4.png[/img]
+A few new fish-, fishing-, and liquid-related buffs. Need to keep the mod thematic!
+[list]
+[*] [b]Leapfrog[/b] - Jump like a frog!
+[*] [b]Seafood[/b] - Grants significant buffs while submerged depending on the liquid...
+[*] [b]Water Boost[/b] - 12% increased movement speed
+[*] [b]Honey Boost[/b] - +2 life regen count
+[*] [b]Lava Boost[/b] - 24% increased damage
+[*] [b]Bait Buddies[/b] - Grants 4% movement speed for every active minion
+[*] [b]Ultrabright[/b] - It's like Shine, except ultra
+[*] [b]Redonkulous[/b] - 80% reduced maximum health, remaining health added to melee damage
+[*] [b]Drunken Wisdom[/b] - 80% reduced maximum mana, remaining mana added to magic damage
+[/list]
+[/spoiler]
+
+[spoiler=21 Accessories]
+[img]http://i.imgur.com/ItMxe9i.png[/img]
+You can put these on your body and thus become better at fishing, because that's how Terraria works! Please note: None of the following unique effects are stackable; for example, Gold Hook, Platinum Hook, and Fishing Rod Kit will all only increase fishing power by 5.
+[list]
+[*] [b]Sonar Stick[/b] - Crafted from Broken Sonar + Radar + 4 Sonar Potion @ Anvil, allows you to see what's biting while in inventory (can also be equipped, similarly to information accessories)
+[*] [b]Gold Reel[/b] - Crafted from 4 Gold Bar + White String @ Anvil, increases crate chance by 5%
+[*] [b]Platinum Reel[/b] - Same thing, except Platinum
+[*] [b]Titanium Reel[/b] - Crafted from 4 Titanium Bar + White String @ Hardmode Anvil, increases crate chance by 10%
+[*] [b]Adamantite Reel[/b] - Same thing, except Adamantite
+[*] [b]Gold Hook[/b] - Crafted from 4 Gold Bar @ Anvil, increases fishing power by 5
+[*] [b]Platinum Hook[/b] - Same thing, except Platinum
+[*] [b]Titanium Hook[/b] - Crafted from 4 Titanium Bar @ Hardmode Anvil, increases fishing power by 10
+[*] [b]Adamantite Hook[/b] - Same thing, except Adamantite
+[*] [b]Coin Hook[/b] - Crafted from Titanium/Adamantite Hook + Lucky Coin @ Tinkerer's Workshop, catch coins with fish!
+[*] [b]Jungle Jig[/b] - Crafted from Jungle Key + one of each jungle fish @ Demon Altar, allows catching unique fish in jungle
+[*] [b]Frozen Jig[/b] - Crafted from Frozen Key + one of each tundra fish @ Demon Altar, allows catching unique fish in tundra
+[*] [b]Ocean Jig[/b] - Crafted from Hallowed Key + one of each ocean fish @ Demon Altar, allows catching unique fish in ocean
+[*] [b]Infernal Jig[/b] - Crafted from Corruption or Crimson Key + one of each lava and corruption or crimson fish @ Demon Altar, allows catching unique fish in underworld and corruption
+[*] [b]Panoptic Jig[/b] - Crafted from all jigs @ Tinkerer's Workshop, combined effects
+[*] [b]Biline Spool[/b] - Crafted from 2 High Test Fishing Line @ Tinkerer's Workshop, line never breaks, cast two lines at once (based on MultiLure, for if you like the idea but find it's a little cheaty)
+[*] [b]Kevlon Spool[/b] - Crafted from Biline Spool + 2 Kevlon String @ Hardmode Anvil, line never breaks, cast four lines at once
+[*] [b]Dragnet[/b] - Crafted from Kevlon Spool + 4 Suspicious String @ Hardmode Anvil, line never breaks, cast eight lines at once
+[*] [b]Fishing Rod Kit[/b] - Crafted from Gold/Platinum Reel + Gold/Platinum Hook + Biline Spool @ Tinkerer's Workshop, combines effects
+[*] [b]Advanced Rod Kit[/b] - Crafted from Titanium/Adamantite Reel + Titanium/Adamantite Hook + Kevlon Spool @ Tinkerer's Workshop, combines effects
+[*] [b]Sizzling Line[/b] - Crafted from Charred Line + Infernal Eel @ Hardmode Anvil, allows fishing in lava with any pole
+[/list]
+[/spoiler]
+
+[spoiler=Other Stuff!]
+[img]http://i.imgur.com/eusArUb.png[/img]
+You've no doubt wondered at some point (possibly every day) why there's no Frozen Crate if there's a Frozen Chest, or why the Ocean, home of seaworthy toddlers, doesn't have its own crate. Well, now they're here!
+[list]
+[*] [b]Broken Sonar[/b] - 2% chance from Iron Crates
+[*] [b]Jeweled Crate[/b] - Caught in Caverns, contains gems + crystal shard (during hardmode) + 2% chance of Spelunking Rod + 4% chance of Enchanted Gnomon (during hardmode)
+[*] [b]Frozen Crate[/b] - Biome crate, ice chest loot table
+[*] [b]Desert Crate[/b] - Biome crate, pyramid loot table + golden furniture
+[*] [b]Ocean Crate[/b] - Biome crate, water chest loot table + 2% chance of Ocarina
+[*] [b]Underworld Crate[/b] - Biome crate, standard stuff + lockbox + 2% chance of Charred Line
+[*] [b]Shadow Lockbox[/b] - Underworld chest loot table, requires Shadow Key to open
+[*] [b]Biome Keys[/b] - Jungle, Corruption, Crimson, Hallowed, and Frozen keys have a ([i]very[/i]) low chance to be caught while fishing in their respective biomes, roughly about as common as if you were killing enemies accounting for the rate of fish caught to enemies killed and increased with fishing level
+[/list]
+
+[img]http://i.imgur.com/lfZB9nL.png[/img]
+Miscellaneous stuff, including junk (of course), crafting materials, and special items!
+[list]
+[*] [b]Junk[/b] - Cassette, Broken PDA, and Driftwood; they have a chance to replace the regular junk you might've caught
+[*] [b]Cattail[/b] - Crafting material, 8% chance from Jungle Crates
+[*] [b]Ocarina[/b] - Summons rain! (no sound yet)
+[*] [b]Quest Ticket[/b] - Change angler quest, sometimes awarded after completing a quest
+[*] [b]Enchanted Gnomon[/b] - Halves the cooldown of Enchanted Sundial while in inventory
+[*] [b]Wayward Bottle[/b] - Caught in Ocean, there'll be a way to get that scroll out eventually, but for now it's just high quality junk
+[*] [b]Wayward Scroll[/b] - A secret message!
+[*] [b]NPC Loot[/b] - Added stuff to Angler, Crab, Flying Fish, Duke Fishron, and Moon Lord drop tables
+[*] [b]Angler Shop[/b] - Unlock fishing supplies sold by Angler starting at 10 quests
+[*] [b]Vanilla Fish[/b] - Cooked Shrimp and Sashimi now grant Seafood buff for 2 minutes
+[*] [b]Vanilla Items[/b] - Fish and Seaweed items can now be caught by fishing
+[/list]
+[/spoiler]
+
+[size=6]Wishlist[/size]
+
+[spoiler=Stuff I'd like to add eventually...]
+[list]
+[*] [b]Endgame Fishing[/b] - Some content for jungle temple, lunar events, and beyond which makes fishing a useful supplementary feature into late game and a worthwhile hobby further
+[/list]
+[/spoiler]
+
+[spoiler=Stuff I want to do but need some help...]
+[list]
+[*] [b]Angler Interactions[/b] - Sell Golden Carp to the Angler for double the profit
+[*] [b]Skipping Stone[/b] - Crafted from Stone Block, throwing item that bounces on water
+[*] [b]Wypole[/b] - A critter that swims around sky lakes similar to Goldfish, based on the Angler's Wyverntail quest
+[*] [b]Rockfrog[/b] - A sootish frog critter found in the underworld, just for fun
+[*] [b]Oasis Biome[/b] - A small desert expansion featuring a small patch of grass and trees with a little lake for fishing
+[*] [b]Island House[/b] - Another worldgen addition, a nice little island out on the ocean with a house and some chests containing fishing loot which would just be fabulous
+[/list]
+
+These would be crafted from various fish caught before (Scaly) and after (Ichthyoid) hardmode with pretty early normal/hardmode stats and fish-related bonuses. I think it'd be super cool!
+[list]
+[*] [b]Scaly Head[/b] - 3 defense, 5% increased fishing power
+[*] [b]Scaly Body[/b] - 6 defense
+[*] [b]Scaly Legs[/b] - 3 defense, increased jump speed/height
+[*] [b]Scaly Set Bonus[/b] - fish weapons deal 10% increased damage, permanently Wet, immunity to Rust
+[*] [b]Ichthyoid Head[/b] - 6 defense, 10% increased fishing power
+[*] [b]Ichthyoid Body[/b] - 12 defense, increased mobility in water
+[*] [b]Ichthyoid Legs[/b] - 6 defense, increased jump speed/height
+[*] [b]Ichthyoid Set Bonus[/b] - 40% increased fish weapon and tool speed, permanently Wet, immunity to Rust
+[/list]
+[/spoiler]
+
+[spoiler=Stuff I'd like to add but prefer someone better at spriting...]
+[list]
+[*] [b]Quest Fish[/b] - I would really really like to add some but it was difficult enough for me spriting all the other fish
+[*] [b]Big Mouth Bass[/b] - Big Mouth Billy Bass plaque quest reward
+[*] [b]Golden Guppy Statue[/b] - Quest reward after 25 quests
+[*] [b]Golden Shark Statue[/b] - Quest reward after 50 quests
+[*] [b]Aquariums[/b] - Would take a lot of work...
+[/list]
+[/spoiler]
+
+[spoiler=Stuff I'd like to add but not sure it's even possible...]
+[list]
+[*] [b]Slippery Lure[/b] - fish stay hooked half as long, 2% chance after 5 quests
+[*] [b]Puffy Lure[/b] - fish stay hooked twice as long, 2% chance after 10 quests
+[*] [b]Pretty Lure[/b] - fish bite faster, guaranteed and 1% chance after 40 quests
+[*] [b]Pretty Slippery Lure[/b] - Combined lure
+[*] [b]Pretty Puffy Lure[/b] - Combined lure
+[*] [b]Submarail[/b] - A minecart that travels extremely fast underwater, just because we don't have enough minecarts so why not
+[*] [b]Oil[/b] - A viscous black liquid formed in the desert, could be a host of a new skeletal fish type which would be cool!
+[/list]
+[/spoiler]
+
+[size=6]Known Issues[/size]
+
+[list]
+[*] Fishing lines cast from your body instead of the fishing pole when using the new poles. I don't know why! If anyone knows how to fix this, please let me know! I didn't change anything related to the projectiles, they should all inherit vanilla pole and projectile data by default.
+[*] Some items aren't fully implemented; notably the Alien Plankton and usable fish (e.g. Sporetooth Mushark).
+[/list]
+
+[size=6]Download[/size]
+
+Now that you know what you're getting yourself into, you can search "Tacklebox" in the Mod Browser or manually download it from my website: http://fxie.website/random/Tacklebox.tmod
