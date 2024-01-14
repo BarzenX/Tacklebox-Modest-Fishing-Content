@@ -14,8 +14,10 @@ namespace Tacklebox.Buffs {
 			Lighting.AddLight(
 				(int)(player.position.X + player.width / 2) / 16,
 				(int)(player.position.Y + player.height / 2) / 16,
-				1.6f, 2.4f, 3.2f
+				1.6f,
+				2.4f,
+				3.2f
 				);
-			}
 		}
 	}
+}

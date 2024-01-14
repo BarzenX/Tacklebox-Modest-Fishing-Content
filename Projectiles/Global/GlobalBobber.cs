@@ -2,16 +2,19 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Tacklebox.Projectiles {
-
-	public class GlobalBobber : GlobalProjectile {
-
-		public override bool IsLoadingEnabled(Mod mod)/* tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead */ {
+namespace Tacklebox.Projectiles
+{
+	public class GlobalBobber : GlobalProjectile
+	{
+		public override bool IsLoadingEnabled(Mod mod) //TODO: tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead
+		{
 			return true;
-			}
+		}
 
-		public override void AI(Projectile projectile) {
-			if(projectile.aiStyle == 61) {
+		public override void AI(Projectile projectile)
+		{
+			if(projectile.aiStyle == 61)
+			{
 				projectile.localAI[0] ++;
 				/*
 
@@ -22,7 +25,7 @@ namespace Tacklebox.Projectiles {
 					this.FishingCheck();
 					}
 				*/
-				}
 			}
 		}
 	}
+}

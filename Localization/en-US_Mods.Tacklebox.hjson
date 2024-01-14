@@ -1,0 +1,587 @@
+Buffs: {
+	AncientRay: {
+		DisplayName: Ancient Ray
+		Description: Mods.Tacklebox.Buffs.AncientRay.Description
+	}
+
+	BaitBuddies: {
+		DisplayName: Bait Buddies
+		Description: Mods.Tacklebox.Buffs.BaitBuddies.Description
+	}
+
+	BigCrate: {
+		DisplayName: Big Crate
+		Description: Mods.Tacklebox.Buffs.BigCrate.Description
+	}
+
+	BigFishing: {
+		DisplayName: Big Fishing
+		Description: Mods.Tacklebox.Buffs.BigFishing.Description
+	}
+
+	DrunkWisdom: {
+		DisplayName: Drunk Wisdom
+		Description: Mods.Tacklebox.Buffs.DrunkWisdom.Description
+	}
+
+	HoneyBoost: {
+		DisplayName: Honey Boost
+		Description: Mods.Tacklebox.Buffs.HoneyBoost.Description
+	}
+
+	LavaBoost: {
+		DisplayName: Lava Boost
+		Description: Mods.Tacklebox.Buffs.LavaBoost.Description
+	}
+
+	Leapfrog: {
+		DisplayName: Leapfrog
+		Description: Mods.Tacklebox.Buffs.Leapfrog.Description
+	}
+
+	Oasis: {
+		DisplayName: Oasis
+		Description: Mods.Tacklebox.Buffs.Oasis.Description
+	}
+
+	Redonkulous: {
+		DisplayName: Redonkulous
+		Description: Mods.Tacklebox.Buffs.Redonkulous.Description
+	}
+
+	Seafood: {
+		DisplayName: Seafood
+		Description: Mods.Tacklebox.Buffs.Seafood.Description
+	}
+
+	Ultrabright: {
+		DisplayName: Ultrabright
+		Description: Mods.Tacklebox.Buffs.Ultrabright.Description
+	}
+
+	WaterBoost: {
+		DisplayName: Water Boost
+		Description: Mods.Tacklebox.Buffs.WaterBoost.Description
+	}
+}
+
+Items: {
+	Dragnet: {
+		DisplayName: Dragnet
+		Tooltip: ""
+	}
+
+	MegaRodKit: {
+		DisplayName: Mega Rod Kit
+		Tooltip: ""
+	}
+
+	RodKit: {
+		DisplayName: Rod Kit
+		Tooltip: ""
+	}
+
+	SizzLine: {
+		DisplayName: Sizz Line
+		Tooltip: ""
+	}
+
+	SonarStick: {
+		DisplayName: Sonar Stick
+		Tooltip: ""
+	}
+
+	CrabClaw: {
+		DisplayName: Crab Claw
+		Tooltip: ""
+	}
+
+	Glowfly: {
+		DisplayName: Glowfly
+		Tooltip: ""
+	}
+
+	GoldJelly: {
+		DisplayName: Gold Jelly
+		Tooltip: ""
+	}
+
+	Guppy: {
+		DisplayName: Guppy
+		Tooltip: ""
+	}
+
+	SpecialBait: {
+		DisplayName: Special Bait
+		Tooltip: ""
+	}
+
+	Wiggler: {
+		DisplayName: Wiggler
+		Tooltip: ""
+	}
+
+	GemCrate: {
+		DisplayName: Gem Crate
+		Tooltip: ""
+	}
+
+	HellCrate: {
+		DisplayName: Hell Crate
+		Tooltip: ""
+	}
+
+	SandCrate: {
+		DisplayName: Sand Crate
+		Tooltip: ""
+	}
+
+	SeaCrate: {
+		DisplayName: Sea Crate
+		Tooltip: ""
+	}
+
+	ShadowLockbox: {
+		DisplayName: Shadow Lockbox
+		Tooltip: ""
+	}
+
+	SnowCrate: {
+		DisplayName: Snow Crate
+		Tooltip: ""
+	}
+
+	Anglerfish: {
+		DisplayName: Anglerfish
+		Tooltip: ""
+	}
+
+	Angling: {
+		DisplayName: Angling
+		Tooltip: ""
+	}
+
+	Boxfish: {
+		DisplayName: Boxfish
+		Tooltip: ""
+	}
+
+	Clusterfish: {
+		DisplayName: Clusterfish
+		Tooltip: ""
+	}
+
+	Coelacanth: {
+		DisplayName: Coelacanth
+		Tooltip: ""
+	}
+
+	DesertEel: {
+		DisplayName: Desert Eel
+		Tooltip: ""
+	}
+
+	Flounder: {
+		DisplayName: Flounder
+		Tooltip: ""
+	}
+
+	Flyfish: {
+		DisplayName: Flyfish
+		Tooltip: ""
+	}
+
+	Gamifish: {
+		DisplayName: Gamifish
+		Tooltip: ""
+	}
+
+	Glittergill: {
+		DisplayName: Glittergill
+		Tooltip: ""
+	}
+
+	LavaEel: {
+		DisplayName: Lava Eel
+		Tooltip: ""
+	}
+
+	Lobster: {
+		DisplayName: Lobster
+		Tooltip: ""
+	}
+
+	Mushfin: {
+		DisplayName: Mushfin
+		Tooltip: ""
+	}
+
+	Pupfish: {
+		DisplayName: Pupfish
+		Tooltip: ""
+	}
+
+	RedHerring: {
+		DisplayName: Red Herring
+		Tooltip: ""
+	}
+
+	SandShark: {
+		DisplayName: Sand Shark
+		Tooltip: ""
+	}
+
+	Sardine: {
+		DisplayName: Sardine
+		Tooltip: ""
+	}
+
+	Spacefish: {
+		DisplayName: Spacefish
+		Tooltip: ""
+	}
+
+	Sturgeon: {
+		DisplayName: Sturgeon
+		Tooltip: ""
+	}
+
+	Venomfish: {
+		DisplayName: Venomfish
+		Tooltip: ""
+	}
+
+	Whiskeyfish: {
+		DisplayName: Whiskeyfish
+		Tooltip: ""
+	}
+
+	Caviar: {
+		DisplayName: Caviar
+		Tooltip: ""
+	}
+
+	CookedCluster: {
+		DisplayName: Cooked Cluster
+		Tooltip: ""
+	}
+
+	CookedEel: {
+		DisplayName: Cooked Eel
+		Tooltip: ""
+	}
+
+	CookedShark: {
+		DisplayName: Cooked Shark
+		Tooltip: ""
+	}
+
+	DevilDish: {
+		DisplayName: Devil Dish
+		Tooltip: ""
+	}
+
+	Frostedfin: {
+		DisplayName: Frostedfin
+		Tooltip: ""
+	}
+
+	LobsterChow: {
+		DisplayName: Lobster Chow
+		Tooltip: ""
+	}
+
+	Moonshine: {
+		DisplayName: Moonshine
+		Tooltip: ""
+	}
+
+	OceanSurprise: {
+		DisplayName: Ocean Surprise
+		Tooltip: ""
+	}
+
+	Superglub: {
+		DisplayName: Superglub
+		Tooltip: ""
+	}
+
+	Sweetglub: {
+		DisplayName: Sweetglub
+		Tooltip: ""
+	}
+
+	AdamHook: {
+		DisplayName: Adam Hook
+		Tooltip: ""
+	}
+
+	CoinHook: {
+		DisplayName: Coin Hook
+		Tooltip: ""
+	}
+
+	GoldHook: {
+		DisplayName: Gold Hook
+		Tooltip: ""
+	}
+
+	PlatinumHook: {
+		DisplayName: Platinum Hook
+		Tooltip: ""
+	}
+
+	TitanHook: {
+		DisplayName: Titan Hook
+		Tooltip: ""
+	}
+
+	HellJig: {
+		DisplayName: Hell Jig
+		Tooltip: ""
+	}
+
+	JungleJig: {
+		DisplayName: Jungle Jig
+		Tooltip: ""
+	}
+
+	SeaJig: {
+		DisplayName: Sea Jig
+		Tooltip: ""
+	}
+
+	SnowJig: {
+		DisplayName: Snow Jig
+		Tooltip: ""
+	}
+
+	BrokenPDA: {
+		DisplayName: Broken P D A
+		Tooltip: ""
+	}
+
+	BrokenSonar: {
+		DisplayName: Broken Sonar
+		Tooltip: ""
+	}
+
+	Cassette: {
+		DisplayName: Cassette
+		Tooltip: ""
+	}
+
+	Cattail: {
+		DisplayName: Cattail
+		Tooltip: ""
+	}
+
+	Driftwood: {
+		DisplayName: Driftwood
+		Tooltip: ""
+	}
+
+	CharredLine: {
+		DisplayName: Charred Line
+		Tooltip: ""
+	}
+
+	CrocTooth: {
+		DisplayName: Croc Tooth
+		Tooltip: ""
+	}
+
+	KevlonString: {
+		DisplayName: Kevlon String
+		Tooltip: ""
+	}
+
+	OddString: {
+		DisplayName: Odd String
+		Tooltip: ""
+	}
+
+	OldEye: {
+		DisplayName: Old Eye
+		Tooltip: ""
+	}
+
+	OldFin: {
+		DisplayName: Old Fin
+		Tooltip: ""
+	}
+
+	OldScale: {
+		DisplayName: Old Scale
+		Tooltip: ""
+	}
+
+	PrettyGuppy: {
+		DisplayName: Pretty Guppy
+		Tooltip: ""
+	}
+
+	WaywardBottle: {
+		DisplayName: Wayward Bottle
+		Tooltip: ""
+	}
+
+	Gnomon: {
+		DisplayName: Gnomon
+		Tooltip: ""
+	}
+
+	Plankton: {
+		DisplayName: Plankton
+		Tooltip: ""
+	}
+
+	AdeptPole: {
+		DisplayName: Adept Pole
+		Tooltip: ""
+	}
+
+	CaveRod: {
+		DisplayName: Cave Rod
+		Tooltip: ""
+	}
+
+	GemRod: {
+		DisplayName: Gem Rod
+		Tooltip: ""
+	}
+
+	JuniorPole: {
+		DisplayName: Junior Pole
+		Tooltip: ""
+	}
+
+	LadyLuck: {
+		DisplayName: Lady Luck
+		Tooltip: ""
+	}
+
+	TheVoyager: {
+		DisplayName: The Voyager
+		Tooltip: ""
+	}
+
+	TheZodiac: {
+		DisplayName: The Zodiac
+		Tooltip: ""
+	}
+
+	TwinPole: {
+		DisplayName: Twin Pole
+		Tooltip: ""
+	}
+
+	XolaRod: {
+		DisplayName: Xola Rod
+		Tooltip: ""
+	}
+
+	AnglerPotion: {
+		DisplayName: Angler Potion
+		Tooltip: ""
+	}
+
+	DivingPotion: {
+		DisplayName: Diving Potion
+		Tooltip: ""
+	}
+
+	FrogPotion: {
+		DisplayName: Frog Potion
+		Tooltip: ""
+	}
+
+	SuperAnglerPotion: {
+		DisplayName: Super Angler Potion
+		Tooltip: ""
+	}
+
+	SuperCratePotion: {
+		DisplayName: Super Crate Potion
+		Tooltip: ""
+	}
+
+	SuperFishingPotion: {
+		DisplayName: Super Fishing Potion
+		Tooltip: ""
+	}
+
+	UltrabrightPotion: {
+		DisplayName: Ultrabright Potion
+		Tooltip: ""
+	}
+
+	QuestTicket: {
+		DisplayName: Quest Ticket
+		Tooltip: ""
+	}
+
+	AdamReel: {
+		DisplayName: Adam Reel
+		Tooltip: ""
+	}
+
+	GoldReel: {
+		DisplayName: Gold Reel
+		Tooltip: ""
+	}
+
+	PlatinumReel: {
+		DisplayName: Platinum Reel
+		Tooltip: ""
+	}
+
+	TitanReel: {
+		DisplayName: Titan Reel
+		Tooltip: ""
+	}
+
+	BilineSpool: {
+		DisplayName: Biline Spool
+		Tooltip: ""
+	}
+
+	KevlonSpool: {
+		DisplayName: Kevlon Spool
+		Tooltip: ""
+	}
+
+	FulgurShark: {
+		DisplayName: Fulgur Shark
+		Tooltip: ""
+	}
+
+	Ocarina: {
+		DisplayName: Ocarina
+		Tooltip: ""
+	}
+
+	Sporetooth: {
+		DisplayName: Sporetooth
+		Tooltip: ""
+	}
+
+	HivePuffer: {
+		DisplayName: Hive Puffer
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	AdeptBobberP.DisplayName: Adept Bobber
+	CaveBobberP.DisplayName: Cave Bobber
+	FlyfishP.DisplayName: Flyfish
+	GemBobberP.DisplayName: Gem Bobber
+	JuniorBobberP.DisplayName: Junior Bobber
+	LuckyBobberP.DisplayName: Lucky Bobber
+	SporetoothP.DisplayName: Sporetooth
+	TwinBobberP.DisplayName: Twin Bobber
+	VoyageBobberP.DisplayName: Voyage Bobber
+	XolaBobberP.DisplayName: Xola Bobber
+	ZodiacBobberP.DisplayName: Zodiac Bobber
+}

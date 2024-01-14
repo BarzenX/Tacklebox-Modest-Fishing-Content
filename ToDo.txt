@@ -1,0 +1,10 @@
+- make use of the GlowNet sprite
+- maybe give the Wayward Bottle some cool twist -> Fooksie already thought of a "Wayward Scroll"....she wrote as if it was already in the mod...strange, maybe look ingame of the old 1.3 mod
+- Fishing lines cast from your body instead of the fishing pole when using the new poles. I don't know why! If anyone knows how to fix this, please let me know! I didn't change anything related to the projectiles, they should all inherit vanilla pole and projectile data by default.
+- Some items aren't fully implemented; notably the Alien Plankton and usable fish (e.g. Sporetooth Mushark).
+- maybe reduce all the "Chance.OneOut(2)" from the crates a bit?
+- check if Hooks who say to increase fishing power really DO increase fishing power
+- create an "Flexi Jig", combining all jigs into one
+- set Journeymode-Research-value for all items
+- make the new trash items processable in the extractinator --> ItemID.Sets.ExtractinatorMode.Append(*MyModItemTypeNo*);
+																ItemID.Sets.ExtractinatorMode.Append(ItemID.OldShoe);    //can I do it simply like that?

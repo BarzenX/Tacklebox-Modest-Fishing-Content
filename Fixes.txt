@@ -1,0 +1,10 @@
+- DrunkWisdom buff gave melee damage instead of magic damage
+- HellCrate had a dropchance for 6..21 NinjaHoods --> changed to HellfireArrows 
+- SandCrate had a dropchance for SnowballCannon and FlurryBoots --> changed them to SandGun and DesertBoots
+- ShadowLockbox had a chance for 15..30 IronBroadswords --> changed to Torch
+- Primordial Yeux, Primordial Nageoires and Primordial Ecailles had no sell value and item rarity declared
+- FulgurShark had a range-plus of 8, reduced to 1
+- made CrabClaw only drop from every tenth crab, if it was spawned by statues
+- extended the tooltip of the GemRod by 'Crab Claws would be the perfect bait for this' because reading the code I saw an extra +20 fishing power when using "CrabClaw" as bait (added as flat increase after halving the fishing power)
+
+- extended the tooltip of the Zodiac by 'The brighter the better, the dimmer the slimmer. Normal at half moon'
