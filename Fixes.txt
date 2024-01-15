@@ -5,6 +5,7 @@
 - Primordial Yeux, Primordial Nageoires and Primordial Ecailles had no sell value and item rarity declared
 - FulgurShark had a range-plus of 8, reduced to 1
 - made CrabClaw only drop from every tenth crab, if it was spawned by statues
-- extended the tooltip of the GemRod by 'Crab Claws would be the perfect bait for this' because reading the code I saw an extra +20 fishing power when using "CrabClaw" as bait (added as flat increase after halving the fishing power)
-
 - extended the tooltip of the Zodiac by 'The brighter the better, the dimmer the slimmer. Normal at half moon'
+- gave the new Junk fishing catches tooltips
+
+- made all crates (except the Jeweled Crate) configurable since all of them (except the Jeweled Crate) were added to vanilla Terraria in 1.4.0.1 "Journey's End"

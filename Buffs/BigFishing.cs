@@ -8,8 +8,7 @@ namespace Tacklebox.Buffs
 
 		public override void SetStaticDefaults() 
 		{
-			// DisplayName.SetDefault("Big Fishing");
-			// Description.SetDefault("Increases fishing skill significantly");
+
 		}
 	}
 }

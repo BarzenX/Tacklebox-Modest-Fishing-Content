@@ -7,8 +7,6 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Redonkulous");
-			// Description.SetDefault("Significantly reduced max life\nMelee damage increased by max life");
 			Main.debuff[Type] = true;
 		}
 

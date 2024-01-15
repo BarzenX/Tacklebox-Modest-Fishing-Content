@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Clusterfish");
-            // Tooltip.SetDefault("'A small colony of fish'");
+
         }
 
         public override void SetDefaults()

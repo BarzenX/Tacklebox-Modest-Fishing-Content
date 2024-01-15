@@ -10,8 +10,7 @@ namespace Tacklebox.Items.Bait
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Lovely Wiggler");
-            // Tooltip.SetDefault("'Worth it!'");
+
         }
 
         public override void SetDefaults()

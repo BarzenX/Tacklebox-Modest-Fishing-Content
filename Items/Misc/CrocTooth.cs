@@ -9,8 +9,7 @@ namespace Tacklebox.Items.Misc
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Crocodile Tooth");
-            // Tooltip.SetDefault("Something is looking for this...");
+
         }
 
         public override void SetDefaults()

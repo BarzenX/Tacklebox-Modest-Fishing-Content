@@ -6,5 +6,9 @@
 - check if Hooks who say to increase fishing power really DO increase fishing power
 - create an "Flexi Jig", combining all jigs into one
 - set Journeymode-Research-value for all items
+--->		// TODO ExampleMod: apply this to all items where necessary (which are not automatically detected)
+		public override void ModifyResearchSorting(ref ContentSamples.CreativeHelper.ItemGroup itemGroup) {
+			itemGroup = ContentSamples.CreativeHelper.ItemGroup.Crates;
+		}
 - make the new trash items processable in the extractinator --> ItemID.Sets.ExtractinatorMode.Append(*MyModItemTypeNo*);
 																ItemID.Sets.ExtractinatorMode.Append(ItemID.OldShoe);    //can I do it simply like that?

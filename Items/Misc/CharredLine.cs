@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Misc
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Charred Line");
-            // Tooltip.SetDefault("'This could probably survive lava...'");
+
         }
 
         public override void SetDefaults()

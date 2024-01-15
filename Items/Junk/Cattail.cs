@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Junk
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Cattail");
-            // Tooltip: Nice looking...except when at you fishing hook
+
         }
 
         public override void SetDefaults()

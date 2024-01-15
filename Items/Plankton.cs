@@ -7,8 +7,7 @@ namespace Tacklebox.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Alien Plankton");
-			// Tooltip.SetDefault("You feel an ancient presence seeking this item...");
+
 		}
 
 		public override void SetDefaults()

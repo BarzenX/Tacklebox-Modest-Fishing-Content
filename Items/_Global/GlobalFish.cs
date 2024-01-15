@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using System.Linq;
 
-namespace Tacklebox.Items
+namespace Tacklebox.Items._Global
 {
     public class GlobalFish : GlobalItem
 	{

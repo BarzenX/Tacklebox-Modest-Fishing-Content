@@ -7,8 +7,7 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Seafood");
-			// Description.SetDefault("Grants buffs while submerged in liquid");
+
 		}
 
 		public override void Update(Player player, ref int buffIndex)

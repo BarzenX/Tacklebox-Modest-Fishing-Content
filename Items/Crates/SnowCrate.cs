@@ -4,13 +4,13 @@ using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Crates
 {
-    public class SnowCrate : ModCrate
+    public class SnowCrate : _Abstract.ModCrate
     {
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Frozen Crate");
-            // Tooltip.SetDefault("{$CommonItemTooltip.RightClickToOpen}");
+            // Disclaimer for both of these sets (as per their docs): They are only checked for vanilla item IDs, but for cross-mod purposes it would be helpful to set them for modded crates too
+            ItemID.Sets.IsFishingCrate[Type] = true;
         }
 
         public override void SetDefaults()
@@ -24,13 +24,13 @@ namespace Tacklebox.Items.Crates
                 ItemID.IceSkates,
                 ItemID.BlizzardinaBottle,
                 ItemID.SnowballCannon,
-                ItemID.FlurryBoots
+                ItemID.FlurryBoots,
+                ItemID.IceMirror,
             };
 
             miscLoot = new int[]
             {
                 ItemID.IceMachine,
-                ItemID.IceMirror,
                 ItemID.Extractinator,
                 ItemID.Fish
             };

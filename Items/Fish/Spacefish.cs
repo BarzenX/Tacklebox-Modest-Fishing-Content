@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Bollywog");
-            // Tooltip.SetDefault("'What happens if you squeeze it?'");
+
         }
 
         public override void SetDefaults()

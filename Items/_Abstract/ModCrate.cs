@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Tacklebox.Items
+namespace Tacklebox.Items._Abstract
 {
 	public abstract class ModCrate : ModItem
 	{
@@ -55,7 +55,7 @@ namespace Tacklebox.Items
 						ItemID.GoldBar,
 						ItemID.PlatinumBar,
 					};
-                player.QuickSpawnItem(source, bars[Main.rand.Next(bars.Length)], Main.rand.Next(10, 20)); //TODO: test it
+                player.QuickSpawnItem(source, bars[Main.rand.Next(bars.Length)], Main.rand.Next(3, 14)); //TODO: test it
 			}
 
             // hardmode bars

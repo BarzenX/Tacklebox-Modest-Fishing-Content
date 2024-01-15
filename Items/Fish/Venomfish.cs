@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Venomous Stonefish");
-            // Tooltip.SetDefault("'Watch where you hold it!'");
+
         }
 
         public override void SetDefaults()

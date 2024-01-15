@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Hooks
 {
-    public class PlatinumHook : RodComponent
+    public class PlatinumHook : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Platinum Hook");
-            // Tooltip.SetDefault("Increases fishing skill");
+
         }
 
         public override void SetDefaults()

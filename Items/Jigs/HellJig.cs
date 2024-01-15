@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Jigs
 {
-    public class HellJig : RodComponent
+    public class HellJig : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infernal Jig");
-            // Tooltip.SetDefault("Allows catching unique Underworld fish");
+
         }
 
         public override void SetDefaults()

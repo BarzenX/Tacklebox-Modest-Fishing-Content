@@ -10,7 +10,7 @@ namespace Tacklebox.Items.Misc
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Primordial Ecailles");
+
         }
 
         public override void SetDefaults()

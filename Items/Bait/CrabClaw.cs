@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Bait
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Crab Claw");
-            // Tooltip.SetDefault("Bonus power with Jewel Fishing Rod");
+
         }
 
         public override void SetDefaults()

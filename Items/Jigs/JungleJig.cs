@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Jigs
 {
-    public class JungleJig : RodComponent
+    public class JungleJig : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Jungle Jig");
-            // Tooltip.SetDefault("Allows catching unique Jungle fish");
+
         }
 
         public override void SetDefaults()

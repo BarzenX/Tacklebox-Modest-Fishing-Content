@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Super Angler Potion");
-            // Tooltip.SetDefault("Significantly improves overall fishing ability");
+
         }
 
         public override void SetDefaults()

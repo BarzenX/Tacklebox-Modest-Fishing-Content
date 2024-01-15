@@ -7,8 +7,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Spelunking Rod");
-            // Tooltip.SetDefault("'We have to fish deeper!'");
             Tacklebox.modRod.Add(Item.type);
             ItemID.Sets.CanFishInLava[Item.type] = true;
         }

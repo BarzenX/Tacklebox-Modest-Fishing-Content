@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Food
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Cooked Colony");
-            // Tooltip.SetDefault("'An exotic food with exotic properties'");
+
         }
 
         public override void SetDefaults()

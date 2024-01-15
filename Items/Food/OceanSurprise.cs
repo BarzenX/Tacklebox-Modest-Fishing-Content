@@ -20,8 +20,7 @@ namespace Tacklebox.Items.Food
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Ocean Surprise");
-            // Tooltip.SetDefault("'A menagerie of sea things'");
+
         }
 
         public override void SetDefaults()

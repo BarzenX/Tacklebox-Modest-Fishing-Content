@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Spongy Onuso");
-            // Tooltip.SetDefault("'Strangely familiar... Eat it?'");
+
         }
 
         public override void SetDefaults()

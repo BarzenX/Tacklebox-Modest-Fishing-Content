@@ -9,8 +9,7 @@ namespace Tacklebox.Items.Weapons
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Hive Puffer");
-            // Tooltip.SetDefault("'It's... buzzing!'");
+
         }
 
         public override void SetDefaults()

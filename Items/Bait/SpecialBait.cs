@@ -10,8 +10,7 @@ namespace Tacklebox.Items.Bait
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Special Bait");
-            // Tooltip.SetDefault("Attracts quest fish");
+
         }
 
         public override void SetDefaults()

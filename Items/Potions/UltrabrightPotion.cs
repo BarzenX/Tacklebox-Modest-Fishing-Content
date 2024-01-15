@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Ultrabright Potion");
-            // Tooltip.SetDefault("Makes you ultrabright");
+
         }
 
         public override void SetDefaults()
@@ -17,7 +16,7 @@ namespace Tacklebox.Items.Potions
             Item.CloneDefaults(ItemID.FishingPotion);
             Item.value = 10000;
             Item.rare = ItemRarityID.Blue;
-            Item.maxStack = 30;
+            Item.maxStack = Item.CommonMaxStack;
             Item.consumable = true;
             Item.buffType = ModContent.BuffType<Buffs.Ultrabright>();
             Item.buffTime = 36000;

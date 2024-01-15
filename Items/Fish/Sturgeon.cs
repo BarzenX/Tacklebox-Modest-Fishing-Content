@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Snow Sturgeon");
+
         }
 
         public override void SetDefaults()

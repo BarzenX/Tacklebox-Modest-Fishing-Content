@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Flyfish");
+
         }
 
         public override void SetDefaults()
@@ -16,7 +16,7 @@ namespace Tacklebox.Items.Fish
             Item.CloneDefaults(ItemID.FrostDaggerfish);
             Item.shoot = ModContent.ProjectileType<Projectiles.FlyfishP>(); 
             Item.damage = 6;
-            Item.knockBack = 12.0f;
+            Item.knockBack = 3.5f;
         }
 
         public override void CaughtFishStack(ref int stack)

@@ -9,8 +9,7 @@ namespace Tacklebox.Items.Food
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Frosted Flarefin");
-            // Tooltip.SetDefault("'Chill out!'");
+
         }
 
         public override void SetDefaults()

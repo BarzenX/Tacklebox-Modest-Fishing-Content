@@ -7,8 +7,6 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Drunken Wisdom");
-			// Description.SetDefault("Significantly reduced max life \nMagic damage increased by max life");
 			Main.debuff[Type] = true;
 		}
 

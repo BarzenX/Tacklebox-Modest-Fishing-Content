@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Placeables
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Enchanted Gnomon");
-            // Tooltip.SetDefault("Reduces cooldown of Enchanted Sundial");
+
         }
 
         public override void SetDefaults()

@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Frog Potion");
-            // Tooltip.SetDefault("Increases jump height");
+
         }
 
         public override void SetDefaults()

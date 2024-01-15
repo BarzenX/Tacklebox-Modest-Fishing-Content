@@ -8,8 +8,7 @@ namespace Tacklebox.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Quest Ticket");
-			// Tooltip.SetDefault("Swap this for a different fishing quest!");
+
 		}
 
 		public override void SetDefaults()

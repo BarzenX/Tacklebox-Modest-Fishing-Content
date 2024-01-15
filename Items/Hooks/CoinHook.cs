@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Hooks
 {
-    public class CoinHook : RodComponent
+    public class CoinHook : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Coin Hook");
-            // Tooltip.SetDefault("Catch money and fish!");
+
         }
 
         public override void SetDefaults()

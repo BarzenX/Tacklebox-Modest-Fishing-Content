@@ -7,8 +7,7 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Leapfrog");
-			// Description.SetDefault("Jump like a frog!");
+
 		}
 
 		public override void Update(Player player, ref int buffIndex)

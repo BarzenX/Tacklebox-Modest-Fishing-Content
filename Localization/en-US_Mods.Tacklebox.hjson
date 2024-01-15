@@ -1,104 +1,137 @@
 Buffs: {
 	AncientRay: {
 		DisplayName: Ancient Ray
-		Description: Mods.Tacklebox.Buffs.AncientRay.Description
+		Description: You've befriended a flying manta ray from outer space
 	}
 
 	BaitBuddies: {
 		DisplayName: Bait Buddies
-		Description: Mods.Tacklebox.Buffs.BaitBuddies.Description
+		Description: Run 4% faster for every active minion
 	}
 
 	BigCrate: {
 		DisplayName: Big Crate
-		Description: Mods.Tacklebox.Buffs.BigCrate.Description
+		Description: Greatest chance of fishing up a crate
 	}
 
 	BigFishing: {
 		DisplayName: Big Fishing
-		Description: Mods.Tacklebox.Buffs.BigFishing.Description
+		Description: Increases fishing power significantly
 	}
 
 	DrunkWisdom: {
-		DisplayName: Drunk Wisdom
-		Description: Mods.Tacklebox.Buffs.DrunkWisdom.Description
+		DisplayName: Drunken Wisdom
+		Description:
+			'''
+			Significantly reduced max life
+			Magic damage increased by max life
+			'''
 	}
 
 	HoneyBoost: {
 		DisplayName: Honey Boost
-		Description: Mods.Tacklebox.Buffs.HoneyBoost.Description
+		Description:
+			'''
+			Seafood Effect
+			Life regeneration increased even more!
+			'''
 	}
 
 	LavaBoost: {
 		DisplayName: Lava Boost
-		Description: Mods.Tacklebox.Buffs.LavaBoost.Description
+		Description:
+			'''
+			Seafood Effect
+			You deal 24% more damage while melting!
+			'''
 	}
 
 	Leapfrog: {
 		DisplayName: Leapfrog
-		Description: Mods.Tacklebox.Buffs.Leapfrog.Description
+		Description: Jump like a frog!
 	}
 
 	Oasis: {
 		DisplayName: Oasis
-		Description: Mods.Tacklebox.Buffs.Oasis.Description
+		Description: Improved desert defenses
 	}
 
 	Redonkulous: {
 		DisplayName: Redonkulous
-		Description: Mods.Tacklebox.Buffs.Redonkulous.Description
+		Description:
+			'''
+			Significantly reduced max life
+			Melee damage increased by max life
+			'''
 	}
 
 	Seafood: {
 		DisplayName: Seafood
-		Description: Mods.Tacklebox.Buffs.Seafood.Description
+		Description: Grants buffs while submerged in liquid
 	}
 
 	Ultrabright: {
 		DisplayName: Ultrabright
-		Description: Mods.Tacklebox.Buffs.Ultrabright.Description
+		Description: Whoa, that's bright!
 	}
 
 	WaterBoost: {
 		DisplayName: Water Boost
-		Description: Mods.Tacklebox.Buffs.WaterBoost.Description
+		Description:
+			'''
+			Seafood Effect
+			Move freely and faster in water!
+			'''
 	}
 }
 
 Items: {
 	Dragnet: {
 		DisplayName: Dragnet
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast eight lines at once while fishing
+			'Those poor fish...'
+			'''
 	}
 
 	MegaRodKit: {
-		DisplayName: Mega Rod Kit
-		Tooltip: ""
+		DisplayName: Advanced Rod Kit
+		Tooltip:
+			'''
+			Increases fishing power and crate chance by 10
+			Cast four lines at once while fishing
+			'''
 	}
 
 	RodKit: {
-		DisplayName: Rod Kit
-		Tooltip: ""
+		DisplayName: Fishing Rod Kit
+		Tooltip:
+			'''
+			Increases fishing power and crate chance by 5
+			Cast two lines at once while fishing
+			'''
 	}
 
 	SizzLine: {
-		DisplayName: Sizz Line
-		Tooltip: ""
+		DisplayName: Sizzling Line
+		Tooltip: Allows fishing in lava
 	}
 
 	SonarStick: {
 		DisplayName: Sonar Stick
-		Tooltip: ""
+		Tooltip: Shows what nibbles your hook
 	}
 
 	CrabClaw: {
 		DisplayName: Crab Claw
-		Tooltip: ""
+		Tooltip: Bonus power with Jewel Fishing Rod
 	}
 
 	Glowfly: {
 		DisplayName: Glowfly
-		Tooltip: ""
+		Tooltip: "'Tempting...'"
 	}
 
 	GoldJelly: {
@@ -108,52 +141,56 @@ Items: {
 
 	Guppy: {
 		DisplayName: Guppy
-		Tooltip: ""
+		Tooltip: Some big fish are crazy for these little tidbits
 	}
 
 	SpecialBait: {
 		DisplayName: Special Bait
-		Tooltip: ""
+		Tooltip: Makes your hook irresistible to quest fish
 	}
 
 	Wiggler: {
-		DisplayName: Wiggler
-		Tooltip: ""
+		DisplayName: Lovely Wiggler
+		Tooltip: "'Worth it!'"
 	}
 
 	GemCrate: {
-		DisplayName: Gem Crate
-		Tooltip: ""
+		DisplayName: Jeweled Crate
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	HellCrate: {
-		DisplayName: Hell Crate
-		Tooltip: ""
+		DisplayName: Underworld Crate
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SandCrate: {
-		DisplayName: Sand Crate
-		Tooltip: ""
+		DisplayName: Desert Crate
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SeaCrate: {
-		DisplayName: Sea Crate
-		Tooltip: ""
+		DisplayName: Ocean Crate
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	ShadowLockbox: {
 		DisplayName: Shadow Lockbox
-		Tooltip: ""
+		Tooltip:
+			'''
+			{$CommonItemTooltip.RightClickToOpen}
+			Requires a Shadow Key
+			'''
 	}
 
 	SnowCrate: {
-		DisplayName: Snow Crate
-		Tooltip: ""
+		DisplayName: Frozen Crate
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	Anglerfish: {
 		DisplayName: Anglerfish
-		Tooltip: ""
+		Tooltip: Provides light when held
 	}
 
 	Angling: {
@@ -163,12 +200,12 @@ Items: {
 
 	Boxfish: {
 		DisplayName: Boxfish
-		Tooltip: ""
+		Tooltip: "'A funny-looking fish'"
 	}
 
 	Clusterfish: {
 		DisplayName: Clusterfish
-		Tooltip: ""
+		Tooltip: "'A small colony of fish'"
 	}
 
 	Coelacanth: {
@@ -177,8 +214,8 @@ Items: {
 	}
 
 	DesertEel: {
-		DisplayName: Desert Eel
-		Tooltip: ""
+		DisplayName: Oasis Eel
+		Tooltip: "'Doubles like a snake'"
 	}
 
 	Flounder: {
@@ -192,18 +229,18 @@ Items: {
 	}
 
 	Gamifish: {
-		DisplayName: Gamifish
-		Tooltip: ""
+		DisplayName: Origami Fish
+		Tooltip: "'Is it a fish or paper?'"
 	}
 
 	Glittergill: {
 		DisplayName: Glittergill
-		Tooltip: ""
+		Tooltip: "'All that glitters is gold'"
 	}
 
 	LavaEel: {
-		DisplayName: Lava Eel
-		Tooltip: ""
+		DisplayName: Infernal Eel
+		Tooltip: "'A hot catch!'"
 	}
 
 	Lobster: {
@@ -212,13 +249,13 @@ Items: {
 	}
 
 	Mushfin: {
-		DisplayName: Mushfin
-		Tooltip: ""
+		DisplayName: Spongy Onuso
+		Tooltip: "'Strangely familiar... Eat it?'"
 	}
 
 	Pupfish: {
-		DisplayName: Pupfish
-		Tooltip: ""
+		DisplayName: Legendary Pupfish
+		Tooltip: "'Sometimes the small ones are the most valuable!'"
 	}
 
 	RedHerring: {
@@ -228,7 +265,7 @@ Items: {
 
 	SandShark: {
 		DisplayName: Sand Shark
-		Tooltip: ""
+		Tooltip: "'Quite a catch!'"
 	}
 
 	Sardine: {
@@ -237,53 +274,53 @@ Items: {
 	}
 
 	Spacefish: {
-		DisplayName: Spacefish
-		Tooltip: ""
+		DisplayName: Bollywog
+		Tooltip: "'What happens if you squeeze it?'"
 	}
 
 	Sturgeon: {
-		DisplayName: Sturgeon
+		DisplayName: Snow Sturgeon
 		Tooltip: ""
 	}
 
 	Venomfish: {
-		DisplayName: Venomfish
-		Tooltip: ""
+		DisplayName: Venomous Stonefish
+		Tooltip: "'Watch where you hold it!'"
 	}
 
 	Whiskeyfish: {
 		DisplayName: Whiskeyfish
-		Tooltip: ""
+		Tooltip: "'This fish looks... inebriated'"
 	}
 
 	Caviar: {
 		DisplayName: Caviar
-		Tooltip: ""
+		Tooltip: "'Quite...cold....why?'"
 	}
 
 	CookedCluster: {
-		DisplayName: Cooked Cluster
-		Tooltip: ""
+		DisplayName: Cooked Colony
+		Tooltip: "'An exotic food with exotic properties'"
 	}
 
 	CookedEel: {
 		DisplayName: Cooked Eel
-		Tooltip: ""
+		Tooltip: Imbues you with sandy strength
 	}
 
 	CookedShark: {
 		DisplayName: Cooked Shark
-		Tooltip: ""
+		Tooltip: "'A delicacy in distant lands'"
 	}
 
 	DevilDish: {
-		DisplayName: Devil Dish
-		Tooltip: ""
+		DisplayName: Devil's Dish
+		Tooltip: "'An underworld delicacy'"
 	}
 
 	Frostedfin: {
-		DisplayName: Frostedfin
-		Tooltip: ""
+		DisplayName: Frosted Flarefin
+		Tooltip: "'Chill out!'"
 	}
 
 	LobsterChow: {
@@ -293,282 +330,300 @@ Items: {
 
 	Moonshine: {
 		DisplayName: Moonshine
-		Tooltip: ""
+		Tooltip: Makes you a danger to yourself
 	}
 
 	OceanSurprise: {
 		DisplayName: Ocean Surprise
-		Tooltip: ""
+		Tooltip: "'A menagerie of sea things'"
 	}
 
 	Superglub: {
-		DisplayName: Superglub
-		Tooltip: ""
+		DisplayName: Sweet Sweetglub
+		Tooltip: "'Something with you and honey, huh?'"
 	}
 
 	Sweetglub: {
 		DisplayName: Sweetglub
-		Tooltip: ""
+		Tooltip: "'Honeyed fish!'"
 	}
 
 	AdamHook: {
-		DisplayName: Adam Hook
-		Tooltip: ""
+		DisplayName: Adamantite Hook
+		Tooltip: +10 Fishing Power
 	}
 
 	CoinHook: {
 		DisplayName: Coin Hook
-		Tooltip: ""
+		Tooltip: Catch money and fish!
 	}
 
 	GoldHook: {
 		DisplayName: Gold Hook
-		Tooltip: ""
+		Tooltip: +5 Fishing Power
 	}
 
 	PlatinumHook: {
 		DisplayName: Platinum Hook
-		Tooltip: ""
+		Tooltip: +5 Fishing Power
 	}
 
 	TitanHook: {
-		DisplayName: Titan Hook
-		Tooltip: ""
+		DisplayName: Titanium Hook
+		Tooltip: +10 Fishing Power
 	}
 
 	HellJig: {
-		DisplayName: Hell Jig
-		Tooltip: ""
+		DisplayName: Infernal Jig
+		Tooltip: Allows catching unique Underworld fish
 	}
 
 	JungleJig: {
 		DisplayName: Jungle Jig
-		Tooltip: ""
+		Tooltip: Allows catching unique Jungle fish
 	}
 
 	SeaJig: {
-		DisplayName: Sea Jig
-		Tooltip: ""
+		DisplayName: Ocean Jig
+		Tooltip: Allows catching unique Ocean fish
 	}
 
 	SnowJig: {
-		DisplayName: Snow Jig
-		Tooltip: ""
+		DisplayName: Frozen Jig
+		Tooltip: Allows catching unique Tundra fish
 	}
 
 	BrokenPDA: {
-		DisplayName: Broken P D A
-		Tooltip: ""
+		DisplayName: Broken PDA
+		Tooltip: "'Almost got your hopes up...'"
 	}
 
 	BrokenSonar: {
 		DisplayName: Broken Sonar
-		Tooltip: ""
+		Tooltip: "'It's missing some parts...but seems repairable'"
 	}
 
 	Cassette: {
 		DisplayName: Cassette
-		Tooltip: ""
+		Tooltip: "'Take your music anywhere, it never skips or scratches, just rips, tears or melts!'"
 	}
 
 	Cattail: {
 		DisplayName: Cattail
-		Tooltip: ""
+		Tooltip: "'Nice looking...except when at your fishing hook'"
 	}
 
 	Driftwood: {
 		DisplayName: Driftwood
-		Tooltip: ""
+		Tooltip: "'At least it gave you a workout, while dragging it out'"
 	}
 
 	CharredLine: {
 		DisplayName: Charred Line
-		Tooltip: ""
+		Tooltip: "'This could probably survive lava...'"
 	}
 
 	CrocTooth: {
-		DisplayName: Croc Tooth
-		Tooltip: ""
+		DisplayName: Crocodile Tooth
+		Tooltip: "'Something is looking for this...'"
 	}
 
 	KevlonString: {
 		DisplayName: Kevlon String
-		Tooltip: ""
+		Tooltip: Super tearproof!
 	}
 
 	OddString: {
-		DisplayName: Odd String
-		Tooltip: ""
+		DisplayName: Suspicious String
+		Tooltip: "'This durable thread just gave you a great idea!'"
 	}
 
 	OldEye: {
-		DisplayName: Old Eye
-		Tooltip: ""
+		DisplayName: Primordial Yeux
+		Tooltip: It's a work in progress...
 	}
 
 	OldFin: {
-		DisplayName: Old Fin
-		Tooltip: ""
+		DisplayName: Primordial Nageoires
+		Tooltip: It's a work in progress...
 	}
 
 	OldScale: {
-		DisplayName: Old Scale
-		Tooltip: ""
+		DisplayName: Primordial Ecailles
+		Tooltip: It's a work in progress...
 	}
 
 	PrettyGuppy: {
-		DisplayName: Pretty Guppy
-		Tooltip: ""
+		DisplayName: Pristine Guppy
+		Tooltip: "'Worth a pretty penny!'"
 	}
 
 	WaywardBottle: {
 		DisplayName: Wayward Bottle
-		Tooltip: ""
+		Tooltip: "'What's that inside?'"
 	}
 
 	Gnomon: {
-		DisplayName: Gnomon
-		Tooltip: ""
+		DisplayName: Enchanted Gnomon
+		Tooltip: Reduces cooldown of Enchanted Sundial
 	}
 
 	Plankton: {
-		DisplayName: Plankton
-		Tooltip: ""
+		DisplayName: Alien Plankton
+		Tooltip: "'You feel an ancient presence seeking this item...'"
 	}
 
 	AdeptPole: {
-		DisplayName: Adept Pole
-		Tooltip: ""
+		DisplayName: Adept's Pole
+		Tooltip: "'Very makeshift'"
 	}
 
 	CaveRod: {
-		DisplayName: Cave Rod
-		Tooltip: ""
+		DisplayName: Spelunking Rod
+		Tooltip: "'We have to fish deeper!'"
 	}
 
 	GemRod: {
-		DisplayName: Gem Rod
-		Tooltip: ""
+		DisplayName: Jewel Fishing Rod
+		Tooltip:
+			'''
+			Catch gems instead of fish
+			Fishing power is halved
+			'Likely to get a lot of junk...'
+			'''
 	}
 
 	JuniorPole: {
 		DisplayName: Junior Pole
-		Tooltip: ""
+		Tooltip: "'Some day I gonna reel 'em all!'"
 	}
 
 	LadyLuck: {
 		DisplayName: Lady Luck
-		Tooltip: ""
+		Tooltip: Fishing power based on highest Critical Chance
 	}
 
 	TheVoyager: {
 		DisplayName: The Voyager
-		Tooltip: ""
+		Tooltip: "'From across the seven depths'"
 	}
 
 	TheZodiac: {
 		DisplayName: The Zodiac
-		Tooltip: ""
+		Tooltip:
+			'''
+			Influenced by moon phase
+			'The brighter the better, the dimmer the slimmer...normal at half moon.'
+			'''
 	}
 
 	TwinPole: {
-		DisplayName: Twin Pole
-		Tooltip: ""
+		DisplayName: Twin Cattail Pole
+		Tooltip: Cast twice as many lines at once
 	}
 
 	XolaRod: {
-		DisplayName: Xola Rod
-		Tooltip: ""
+		DisplayName: Xola's Fishing Rod
+		Tooltip: Bait power is doubled
 	}
 
 	AnglerPotion: {
 		DisplayName: Angler Potion
-		Tooltip: ""
+		Tooltip: Improves overall fishing ability
 	}
 
 	DivingPotion: {
 		DisplayName: Diving Potion
-		Tooltip: ""
+		Tooltip: Grants underwater breathing and mobility
 	}
 
 	FrogPotion: {
 		DisplayName: Frog Potion
-		Tooltip: ""
+		Tooltip: Increases jump height
 	}
 
 	SuperAnglerPotion: {
 		DisplayName: Super Angler Potion
-		Tooltip: ""
+		Tooltip: Significantly improves overall fishing ability
 	}
 
 	SuperCratePotion: {
 		DisplayName: Super Crate Potion
-		Tooltip: ""
+		Tooltip: Increases chance to get a crate a lot
 	}
 
 	SuperFishingPotion: {
 		DisplayName: Super Fishing Potion
-		Tooltip: ""
+		Tooltip: Increases fishing power a lot
 	}
 
 	UltrabrightPotion: {
 		DisplayName: Ultrabright Potion
-		Tooltip: ""
+		Tooltip: Makes you ultrabright
 	}
 
 	QuestTicket: {
 		DisplayName: Quest Ticket
-		Tooltip: ""
+		Tooltip: Swap this for a different fishing quest!
 	}
 
 	AdamReel: {
-		DisplayName: Adam Reel
-		Tooltip: ""
+		DisplayName: Adamantite Reel
+		Tooltip: +10 increased chance to fish extra crates
 	}
 
 	GoldReel: {
 		DisplayName: Gold Reel
-		Tooltip: ""
+		Tooltip: +5 increased chance to fish extra crates
 	}
 
 	PlatinumReel: {
 		DisplayName: Platinum Reel
-		Tooltip: ""
+		Tooltip: +5 increased chance to fish extra crates
 	}
 
 	TitanReel: {
-		DisplayName: Titan Reel
-		Tooltip: ""
+		DisplayName: Titanium Reel
+		Tooltip: +10 increased chance to fish extra crates
 	}
 
 	BilineSpool: {
 		DisplayName: Biline Spool
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast two lines at once while fishing
+			'''
 	}
 
 	KevlonSpool: {
 		DisplayName: Kevlon Spool
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast four lines at once while fishing
+			'The power of kevlon!'
+			'''
 	}
 
 	FulgurShark: {
 		DisplayName: Fulgur Shark
-		Tooltip: ""
+		Tooltip: "'When the depths aren't deep enough'"
 	}
 
 	Ocarina: {
 		DisplayName: Ocarina
-		Tooltip: ""
+		Tooltip: Summons rain when played
 	}
 
 	Sporetooth: {
-		DisplayName: Sporetooth
-		Tooltip: ""
+		DisplayName: Sporetooth Mushark
+		Tooltip: "'Oh, I get it!'"
 	}
 
 	HivePuffer: {
 		DisplayName: Hive Puffer
-		Tooltip: ""
+		Tooltip: "'It's... buzzing!'"
 	}
 }
 

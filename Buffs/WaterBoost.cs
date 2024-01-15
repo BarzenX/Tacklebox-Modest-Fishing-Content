@@ -7,8 +7,6 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Water Boost");
-			// Description.SetDefault("Seafood Effect\nMove freely and faster in water!");
 			Main.buffNoTimeDisplay[Type] = true;
 		}
 

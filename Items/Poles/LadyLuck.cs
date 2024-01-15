@@ -8,8 +8,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Lady Luck");
-            // Tooltip.SetDefault("Fishing power based on highest Critical Chance");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

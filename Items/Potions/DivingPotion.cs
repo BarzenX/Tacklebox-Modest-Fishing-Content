@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Diving Potion");
-            // Tooltip.SetDefault("Grants underwater breathing and mobility");
+
         }
 
         public override void SetDefaults()

@@ -7,8 +7,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Junior Pole");
-            // Tooltip.SetDefault("'Some day I gonna reel 'em all!'");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

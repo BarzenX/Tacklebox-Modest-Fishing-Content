@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Accessories
 {
-    public class RodKit : RodComponent
+    public class RodKit : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Fishing Rod Kit");
-            // Tooltip.SetDefault("Increases fishing skill and crate chance by 5%\nCast two lines at once while fishing");
+
         }
 
         public override void SetDefaults()

@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Legendary Pupfish");
-            // Tooltip.SetDefault("'Sometimes the small ones are the most valuable!'");
+
         }
 
         public override void SetDefaults()

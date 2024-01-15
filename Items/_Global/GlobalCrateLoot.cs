@@ -3,7 +3,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Tacklebox.Items
+namespace Tacklebox.Items._Global
 {
 	public class GlobalCrateLoot : GlobalItem
 	{

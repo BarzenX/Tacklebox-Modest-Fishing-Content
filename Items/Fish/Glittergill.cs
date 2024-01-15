@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Glittergill");
-            // Tooltip.SetDefault("'All that glitters is gold'");
+
         }
 
         public override void SetDefaults()

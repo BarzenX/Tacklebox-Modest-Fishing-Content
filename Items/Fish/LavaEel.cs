@@ -7,7 +7,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Infernal Eel");
+
         }
 
         public override void SetDefaults()

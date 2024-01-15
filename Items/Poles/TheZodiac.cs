@@ -8,8 +8,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("The Zodiac");
-            // Tooltip.SetDefault("Influenced by moon phase/n'The brighter the better, the dimmer the slimmer. Normal at half moon'");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

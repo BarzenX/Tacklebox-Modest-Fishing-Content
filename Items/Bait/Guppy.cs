@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Bait
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Guppy");
-            // Tooltip: "Some big fish are crazy for these little tidbits"
+
         }
 
         public override void SetDefaults()

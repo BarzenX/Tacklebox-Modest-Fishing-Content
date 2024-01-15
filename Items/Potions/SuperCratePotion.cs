@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Super Crate Potion");
-            // Tooltip.SetDefault("Increases chance to get a crate a lot");
+
         }
 
         public override void SetDefaults()

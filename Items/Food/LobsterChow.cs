@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Food
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Lobster Chow");
+
         }
 
         public override void SetDefaults()

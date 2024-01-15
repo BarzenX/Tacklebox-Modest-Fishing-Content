@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Reels
 {
-    public class GoldReel : RodComponent
+    public class GoldReel : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Gold Reel");
-            // Tooltip.SetDefault("Increases chance to fish crates");
+
         }
 
         public override void SetDefaults()

@@ -8,8 +8,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Jewel Fishing Rod");
-            // Tooltip.SetDefault("Catch gems instead of fish\nFishing power is halved\n'Likely to get a lot of junk...'/nCrab Claws would be the perfect bait for this");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

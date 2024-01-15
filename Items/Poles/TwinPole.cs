@@ -8,8 +8,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Twin Cattail Pole");
-            // Tooltip.SetDefault("Cast twice as many lines at once");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

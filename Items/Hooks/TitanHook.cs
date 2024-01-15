@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Hooks
 {
-    public class TitanHook : RodComponent
+    public class TitanHook : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Titanium Hook");
-            // Tooltip.SetDefault("Increases fishing skill");
+
         }
 
         public override void SetDefaults()

@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Food
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Sweet Sweetglub");
-            // Tooltip.SetDefault("'Something with you and honey, huh?'");
+
         }
 
         public override void SetDefaults()

@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Spools
 {
-    public class BilineSpool : RodComponent
+    public class BilineSpool : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Biline Spool");
-            // Tooltip.SetDefault("Fishing line never breaks\nCast two lines at once while fishing");
+
         }
 
         public override void SetDefaults()

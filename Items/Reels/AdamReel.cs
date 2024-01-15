@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Reels
 {
-    public class AdamReel : RodComponent
+    public class AdamReel : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Adamantite Reel");
-            // Tooltip.SetDefault("Increases chance to fish crates");
+
         }
 
         public override void SetDefaults()

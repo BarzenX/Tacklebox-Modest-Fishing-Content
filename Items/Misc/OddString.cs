@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Misc
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Suspicious String");
+
         }
 
         public override void SetDefaults()

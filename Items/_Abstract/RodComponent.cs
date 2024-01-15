@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Tacklebox.Items
+namespace Tacklebox.Items._Abstract
 {
 	public abstract class RodComponent : ModItem
 	{

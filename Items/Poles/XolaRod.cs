@@ -7,8 +7,6 @@ namespace Tacklebox.Items.Poles
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Xola's Fishing Rod");
-            // Tooltip.SetDefault("Bait power is doubled");
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
         }

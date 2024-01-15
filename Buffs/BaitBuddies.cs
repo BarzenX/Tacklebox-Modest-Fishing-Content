@@ -8,8 +8,7 @@ namespace Tacklebox.Buffs
 
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Bait Buddies");
-			// Description.SetDefault("Run 4% faster for every active minion");
+
 		}
 
 		public override void Update(Player player, ref int buffIndex)

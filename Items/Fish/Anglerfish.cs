@@ -9,8 +9,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Anglerfish");
-            // Tooltip.SetDefault("Provides light when held");
+
             ItemID.Sets.WaterTorches[this.Type] = true;
         }
 

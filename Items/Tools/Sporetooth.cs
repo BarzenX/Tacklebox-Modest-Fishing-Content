@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Tools
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Sporetooth Mushark");
-            // Tooltip.SetDefault("'Oh, I get it!'");
+
         }
 
         public override void SetDefaults()

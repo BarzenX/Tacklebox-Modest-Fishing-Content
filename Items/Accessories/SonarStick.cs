@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Sonar Stick");
-            // Tooltip.SetDefault("Shows what's on your hook");
+
         }
 
         public override void SetDefaults()

@@ -10,8 +10,7 @@ namespace Tacklebox.Items.Misc
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Wayward Bottle");
-            // Tooltip.SetDefault("'What's that inside?'");
+
         }
 
         public override void SetDefaults()

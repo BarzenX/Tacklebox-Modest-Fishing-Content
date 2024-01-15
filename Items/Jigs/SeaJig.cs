@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Jigs
 {
-    public class SeaJig : RodComponent
+    public class SeaJig : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Ocean Jig");
-            // Tooltip.SetDefault("Allows catching unique Ocean fish");
+
         }
 
         public override void SetDefaults()

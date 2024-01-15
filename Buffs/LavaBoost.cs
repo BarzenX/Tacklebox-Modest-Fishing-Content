@@ -8,8 +8,6 @@ namespace Tacklebox.Buffs
 
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Lava Boost");
-			// Description.SetDefault("Seafood Effect\nYou deal 24% more damage while melting!");
 			Main.buffNoTimeDisplay[Type] = true;
 		}
 

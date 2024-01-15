@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Misc
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Kevlon String");
+
         }
 
         public override void SetDefaults()

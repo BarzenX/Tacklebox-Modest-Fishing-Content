@@ -382,7 +382,7 @@ namespace Tacklebox {
 					if(RarityCheck(fPower, 5))   itemDrop = ModContent.ItemType<Items.Plankton>();
 				}
 
-                if (specialty && !questFishInInventory && Chance.OneOut(4))
+                if (specialty && Chance.OneOut(4))
 				{
                     if (Player.ZoneSnow)
 					{
@@ -443,8 +443,8 @@ namespace Tacklebox {
 							if (quest == ItemID.Dirtfish) itemDrop = quest;
 						}
 					}
-				}
-			}
+                } //TODO: maybe add "&& !questFishInInventory" ? Test it out ingame
+            }
 
             if (attempt.inLava)
 			{
@@ -459,8 +459,8 @@ namespace Tacklebox {
                 if (RarityCheck(fPower, 5)) itemDrop = ModContent.ItemType<Items.Weapons.HivePuffer>();
                 if (RarityCheck(fPower, 6)) itemDrop = ModContent.ItemType<Items.Bait.GoldJelly>();
 
-                if (specialty && !questFishInInventory && Chance.OneOut(4))
-				{
+                if (specialty && Chance.OneOut(4))  //TODO: maybe add "&& !questFishInInventory" ? Test it out ingame
+                {
 					if(quest == ItemID.BumblebeeTuna)   itemDrop = quest;
 				}
 			}

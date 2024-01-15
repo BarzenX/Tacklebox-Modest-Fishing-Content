@@ -7,8 +7,7 @@ namespace Tacklebox.Buffs
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Oasis");
-			// Description.SetDefault("Improved desert defenses");
+
 		}
 
 		public override void Update(Player player, ref int buffIndex)

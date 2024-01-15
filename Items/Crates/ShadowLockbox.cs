@@ -9,8 +9,8 @@ namespace Tacklebox.Items.Crates
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Shadow Lock Box");
-            // Tooltip.SetDefault("{$CommonItemTooltip.RightClickToOpen}\nRequires a Shadow Key");
+            // Disclaimer for both of these sets (as per their docs): They are only checked for vanilla item IDs, but for cross-mod purposes it would be helpful to set them for modded crates too
+            ItemID.Sets.IsFishingCrate[Type] = true;
         }
 
         public override void SetDefaults()

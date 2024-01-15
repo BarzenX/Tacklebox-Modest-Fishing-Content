@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Hooks
 {
-    public class AdamHook : RodComponent
+    public class AdamHook : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Adamantite Hook");
-            // Tooltip.SetDefault("Increases fishing skill");
+
         }
 
         public override void SetDefaults()

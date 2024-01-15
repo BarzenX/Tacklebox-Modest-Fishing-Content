@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Misc
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Pristine Guppy");
-            // Tooltip.SetDefault("'Worth a pretty penny!'");
+
         }
 
         public override void SetDefaults()

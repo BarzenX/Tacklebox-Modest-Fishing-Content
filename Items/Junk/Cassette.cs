@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Junk
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Cassette");
-            // Tooltip Take your music anywhere, it never skips or scratches, just rips, tears or melts!
+
         }
 
         public override void SetDefaults()

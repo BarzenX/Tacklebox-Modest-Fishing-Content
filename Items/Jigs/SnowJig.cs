@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Jigs
 {
-    public class SnowJig : RodComponent
+    public class SnowJig : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Frozen Jig");
-            // Tooltip.SetDefault("Allows catching unique Tundra fish");
+
         }
 
         public override void SetDefaults()

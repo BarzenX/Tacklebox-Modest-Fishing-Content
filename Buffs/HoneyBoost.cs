@@ -8,8 +8,6 @@ namespace Tacklebox.Buffs
 
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Honey Boost");
-			// Description.SetDefault("Seafood Effect\nLife regeneration increased even more!");
 			Main.buffNoTimeDisplay[Type] = true;
 		}
 

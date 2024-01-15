@@ -9,8 +9,7 @@ namespace Tacklebox.Items.Junk
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Broken PDA");
-            // Tooltip.SetDefault("'Almost got your hopes up...'");
+
         }
 
         public override void SetDefaults()

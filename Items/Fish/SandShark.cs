@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Sand Shark");
-            // Tooltip.SetDefault("'Quite a catch!'");
+
         }
 
         public override void SetDefaults()

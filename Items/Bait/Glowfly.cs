@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Bait
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Glowfly");
-            // Tooltip.SetDefault("'Tempting...'");
+
         }
 
         public override void SetDefaults()

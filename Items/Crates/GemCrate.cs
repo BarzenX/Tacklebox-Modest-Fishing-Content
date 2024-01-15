@@ -5,13 +5,13 @@ using Terraria.ID;
 namespace Tacklebox.Items.Crates
 {
 
-    public class GemCrate : ModCrate
+    public class GemCrate : _Abstract.ModCrate
     {
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Jeweled Crate");
-            // Tooltip.SetDefault("{$CommonItemTooltip.RightClickToOpen}");
+            // Disclaimer for both of these sets (as per their docs): They are only checked for vanilla item IDs, but for cross-mod purposes it would be helpful to set them for modded crates too
+            ItemID.Sets.IsFishingCrate[Type] = true;
         }
 
         public override void SetDefaults()

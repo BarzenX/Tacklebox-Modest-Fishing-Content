@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Spools
 {
-    public class KevlonSpool : RodComponent
+    public class KevlonSpool : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Kevlon Spool");
-            // Tooltip.SetDefault("Fishing line never breaks\nCast four lines at once while fishing\n'The power of kevlon!'");
+
         }
 
         public override void SetDefaults()

@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Lobster");
+
         }
 
         public override void SetDefaults()

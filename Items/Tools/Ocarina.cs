@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Tools
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Ocarina");
-            // Tooltip.SetDefault("Summons rain when played");
+
         }
 
         public override void SetDefaults()

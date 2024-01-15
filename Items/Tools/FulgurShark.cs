@@ -7,8 +7,7 @@ namespace Tacklebox.Items.Tools
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Fulgur Shark");
-            // Tooltip.SetDefault("'When the depths aren't deep enough'");
+
         }
 
         public override void SetDefaults()

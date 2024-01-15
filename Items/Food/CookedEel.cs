@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Food
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Cooked Eel");
-            // Tooltip.SetDefault("Imbues you with sandy strength");
+
         }
 
         public override void SetDefaults()

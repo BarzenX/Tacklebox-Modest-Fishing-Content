@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Sizzling Line");
-            // Tooltip.SetDefault("Allows fishing in lava");
+
         }
 
         public override void SetDefaults()

@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Super Fishing Potion");
-            // Tooltip.SetDefault("Increases fishing power a lot");
+
         }
 
         public override void SetDefaults()
@@ -17,7 +16,7 @@ namespace Tacklebox.Items.Potions
             Item.CloneDefaults(ItemID.FishingPotion);
             Item.value = 10000;
             Item.rare = ItemRarityID.Green;
-            Item.maxStack = 30;
+            Item.maxStack = Item.CommonMaxStack;
             Item.consumable = true;
             Item.buffType = ModContent.BuffType<Buffs.BigFishing>();
             Item.buffTime = 43200;

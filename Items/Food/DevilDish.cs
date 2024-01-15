@@ -22,8 +22,7 @@ namespace Tacklebox.Items.Food
 
     public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Devil's Dish");
-            // Tooltip.SetDefault("'An underworld delicacy'");
+
         }
 
         public override void SetDefaults()

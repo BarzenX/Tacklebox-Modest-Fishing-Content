@@ -7,12 +7,11 @@ using Tacklebox.Items.Spools;
 
 namespace Tacklebox.Items.Accessories
 {
-    public class MegaRodKit : RodComponent
+    public class MegaRodKit : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Advanced Rod Kit");
-            // Tooltip.SetDefault("Increases fishing skill and crate chance by 10%\nCast four lines at once while fishing");
+
         }
 
         public override void SetDefaults()

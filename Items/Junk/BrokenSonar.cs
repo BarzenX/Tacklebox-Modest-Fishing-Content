@@ -8,8 +8,7 @@ namespace Tacklebox.Items.Junk
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Broken Sonar");
-            // Tooltip.SetDefault("'It's missing some parts...'");
+
         }
 
         public override void SetDefaults()

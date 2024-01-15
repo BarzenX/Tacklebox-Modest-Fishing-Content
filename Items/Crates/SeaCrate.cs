@@ -4,12 +4,12 @@ using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Crates
 {
-    public class SeaCrate : ModCrate
+    public class SeaCrate : _Abstract.ModCrate
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Ocean Crate");
-            // Tooltip.SetDefault("{$CommonItemTooltip.RightClickToOpen}");
+            // Disclaimer for both of these sets (as per their docs): They are only checked for vanilla item IDs, but for cross-mod purposes it would be helpful to set them for modded crates too
+            ItemID.Sets.IsFishingCrate[Type] = true;
         }
 
         public override void SetDefaults()

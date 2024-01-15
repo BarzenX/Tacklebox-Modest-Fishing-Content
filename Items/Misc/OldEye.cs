@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Misc
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Primordial Yeux");
+
         }
 
         public override void SetDefaults()

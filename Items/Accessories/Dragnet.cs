@@ -4,12 +4,11 @@ using Terraria.ID;
 
 namespace Tacklebox.Items.Accessories
 {
-    public class Dragnet : RodComponent
+    public class Dragnet : _Abstract.RodComponent
     {
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Dragnet");
-            // Tooltip.SetDefault("Fishing line never breaks\nCast eight lines at once while fishing\n'Those poor fish...'");
+
         }
 
         public override void SetDefaults()
