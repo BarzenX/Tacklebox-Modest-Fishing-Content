@@ -18,16 +18,11 @@ namespace Tacklebox.Items.Fish
             Item.maxStack = Item.CommonMaxStack;
             Item.healLife = 6;
             Item.consumable = true;
-        }
-
-        public override bool? UseItem(Player player) //TODO: tModPorter Suggestion: Return null instead of false
-        {
-            player.statLife += Item.healLife;
-            if (player.whoAmI == Main.myPlayer)
-            {
-                player.HealEffect(Item.healLife, true);
-            }
-            return true;
+            Item.useTime = 30;
+            Item.useTurn = true;
+            Item.useStyle = ItemUseStyleID.EatFood;
+            Item.useAnimation = 15;
+            Item.UseSound = SoundID.Item2;
         }
     }
 }

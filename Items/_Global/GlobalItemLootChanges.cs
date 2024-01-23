@@ -7,24 +7,24 @@ using Terraria.ModLoader;
 
 namespace Tacklebox.Items._Global
 {
-	public class GlobalItemLootChanges : GlobalItem
+    public class GlobalItemLootChanges : GlobalItem
 	{
-		public override void ModifyItemLoot(Item item, ItemLoot itemLoot) {
-			if ((item.type == ItemID.LavaCrate) ) { //|| (item.type == ItemID.LavaCrateHard)
-                itemLoot.Add(ItemDropRule.OneFromOptionsNotScalingWithLuck(20, ModContent.ItemType<Items.Misc.CharredLine>()));
-				//foreach (var rule in itemLoot.Get())
-				//{
-				//	if (rule is OneFromOptionsNotScaledWithLuckDropRule oneFromOptionsDrop && oneFromOptionsDrop.dropIds.Contains(ItemID.FlameWakerBoots))
-				//	{
-				//		var original = oneFromOptionsDrop.dropIds.ToList();
-				//		original.Add(ModContent.ItemType<Items.Misc.CharredLine>());
-				//		oneFromOptionsDrop.dropIds = original.ToArray();
+        public override bool IsLoadingEnabled(Mod mod) //TODO: tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead
+        {
+            return true;
+        }
 
-				//		//itemLoot.Add(ItemDropRule.OneFromOptionsNotScalingWithLuck(ModContent.ItemType<Items.Misc.CharredLine>(), 4, 1, 4));
+        public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
+        {
+            if ((item.type == ItemID.IronCrate) || (item.type == ItemID.IronCrateHard))
+            {
+                itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items.Junk.BrokenSonar>(), 40)); // broken sonar 1/40 drop chance (2.5%)
+            }
 
-				//	}
-				//}
-			}
-		}
+            if ((item.type == ItemID.JungleFishingCrate) || (item.type == ItemID.JungleFishingCrateHard))
+            {
+                itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items.Junk.Cattail>(), 4)); // Cattail 1/4 drop chance (25%)
+            }  
+        }
 	}
 }

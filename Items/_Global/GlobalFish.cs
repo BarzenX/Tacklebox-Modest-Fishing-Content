@@ -3,6 +3,9 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using System.Linq;
+using Mono.Cecil;
+using System.Runtime.InteropServices;
+using System.Collections.Generic;
 
 namespace Tacklebox.Items._Global
 {
@@ -34,14 +37,16 @@ namespace Tacklebox.Items._Global
 		public override void CaughtFishStack(int type, ref int stack)
 		{
             TackleboxPlayer player = Main.LocalPlayer.GetModPlayer<TackleboxPlayer>();
-			if((player.jigSet & 16) == 16) //TODO: there has to be a better way!   ...furthermore what does "jigSet" do?
+			if(JigID.CheckJig(player.jigSet, JigID.CoinHook))
             {
-				Main.LocalPlayer.QuickSpawnItem(Main.LocalPlayer.GetSource_FromThis(), ItemID.CopperCoin, Main.rand.Next(8, 16000));
-			}
+				var source = Main.LocalPlayer.GetSource_FromThis();
+                Main.LocalPlayer.QuickSpawnItem(source, ItemID.SilverCoin, Main.rand.Next(0, 3));
+                Main.LocalPlayer.QuickSpawnItem(source, ItemID.CopperCoin, Main.rand.Next(0, 100));
+            }
 
-			if ( player.bait == ModContent.ItemType<Items.Bait.Guppy>() ) //TODO: was Mod.Find<ModItem>("Guppy").Type)
+            if ( player.globalBait == ModContent.ItemType<Items.Bait.Guppy>() )
 			{
-				if (bigFish.Contains(type))   stack = Main.rand.Next(1, 4); //TODO: was   if(System.Array.IndexOf(bigFish, type) != -1)
+				if (bigFish.Contains(type))   stack = Main.rand.Next(1, 4);
             }
 		}
 
@@ -51,7 +56,7 @@ namespace Tacklebox.Items._Global
 			{
 				if(item.type == ItemID.CookedShrimp || item.type == ItemID.Sashimi)
 				{
-					player.AddBuff(ModContent.BuffType<Buffs.Seafood>(), 7200); //TODO: was    player.AddBuff(Mod.Find<ModBuff>("Seafood").Type, 7200);
+					player.AddBuff(ModContent.BuffType<Buffs.Seafood>(), 7200);
                 }
 				return true;
 			}

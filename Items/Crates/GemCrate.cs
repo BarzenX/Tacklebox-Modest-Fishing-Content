@@ -5,7 +5,7 @@ using Terraria.ID;
 namespace Tacklebox.Items.Crates
 {
 
-    public class GemCrate : _Abstract.ModCrate
+    public class GemCrate : ModItem
     {
 
         public override void SetStaticDefaults()
@@ -19,6 +19,12 @@ namespace Tacklebox.Items.Crates
             base.SetDefaults();
             Item.value = 100000;
             Item.rare = ItemRarityID.Orange;
+            Item.maxStack = Item.CommonMaxStack;
+        }
+
+        public override bool CanRightClick()
+        {
+            return true;
         }
 
         public override void RightClick(Player player)
@@ -40,7 +46,7 @@ namespace Tacklebox.Items.Crates
             if (Main.hardMode)
             {
                 if (Chance.OneOut(2)) player.QuickSpawnItem(source, ItemID.CrystalShard, Main.rand.Next(2, 8));
-                if (Chance.OneOut(24)) player.QuickSpawnItem(source, ModContent.ItemType<Items.Placeables.Gnomon>());
+                if (Chance.OneOut(24)) player.QuickSpawnItem(source, ModContent.ItemType<Items.Misc.Gnomon>());
             }
         }
     }

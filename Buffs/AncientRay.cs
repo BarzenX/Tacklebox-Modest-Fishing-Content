@@ -15,7 +15,7 @@ namespace Tacklebox.Buffs
 
 		public override void Update(Player player, ref int buffIndex) 
 		{
-			player.mount.SetMount(ModContent.MountType<Mounts.AncientRay>(), player); //TODO: was Mod.Find<ModMount>("AncientRay").Type
+			player.mount.SetMount(ModContent.MountType<Mounts.AncientRay>(), player);
 
             player.buffTime[buffIndex] = 10;
 		}

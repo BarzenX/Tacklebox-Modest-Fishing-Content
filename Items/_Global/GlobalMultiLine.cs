@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Tacklebox.Items._Global
@@ -15,29 +16,18 @@ namespace Tacklebox.Items._Global
 
         public override bool Shoot(Item item, Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            if (item.fishingPole != 0)
+            if (item.fishingPole != 0 && (Main.myPlayer == player.whoAmI))
             {
-                int playerLineCount = player.GetModPlayer<TackleboxPlayer>().lineCount; //TODO: was player.GetModPlayer<TackleboxPlayer>(Mod).lineCount
-                if (item.type == ModContent.ItemType<Poles.TwinPole>()) //TODO: was Mod.Find<ModItem>("TwinPole").Type
-                {
-                    playerLineCount += 1 + (int)Math.Log(playerLineCount, 2); //TODO: why use logarithm? And why use "+= 1"?
-                }
+                int playerLineCount = player.GetModPlayer<TackleboxPlayer>().lineCount;
+                if (item.type == ModContent.ItemType<Poles.TwinPole>())   playerLineCount += 1;
 
-                if (Tacklebox.modRod.Contains(item.type))
-                {
-                    position.X += 43 * player.direction;
-                    if (player.direction == -1) position.X -= 13.0f; //TODO: what does this do?
-
-                    position.Y -= 36.0f * player.gravDir;
-                }
-
-                for (int i = 1; i < playerLineCount; i++)
+                for (int i = playerLineCount; i > 1; i--) // from right to left because each new bopper will draw it's line in front of the last one...looks prettier that way
                 {
                     Projectile.NewProjectile(
                         source,
-                        position.X + player.direction * (float)i / (float)Math.Log(playerLineCount),
+                        position.X + player.direction * (float)(i-1), //to disperse the boppers a little bit so they are nicely placed in the water
                         position.Y,
-                        velocity.X + player.direction * (float)i / (float)Math.Log(playerLineCount),
+                        velocity.X + player.direction * (float)(i-1) *2f, //to disperse the boppers a little more so they are nicely placed in the water
                         velocity.Y,
                         type,
                         damage,

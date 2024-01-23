@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-
+            
         }
 
         public override void SetDefaults()
@@ -16,12 +16,12 @@ namespace Tacklebox.Items.Accessories
             Item.value = 50000;
             Item.rare = ItemRarityID.Blue;
             Item.accessory = true;
-            Item.buffType = 122;
+            Item.maxStack = 1;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetModPlayer<TackleboxPlayer>().sonarActive = true;
+            player.AddBuff(BuffID.Sonar, 30); //2 ticks will hide the remaining buff time, so it appears as "never depleating"
         }
 
         public override void AddRecipes()

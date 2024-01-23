@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Tacklebox.Items._Global;
 
 namespace Tacklebox.Items.Hooks
 {
@@ -17,7 +18,7 @@ namespace Tacklebox.Items.Hooks
             Item.value = 100000;
             Item.rare = ItemRarityID.Orange;
             hookTier = 2;
-            jigType = 16;
+            jigType = JigID.CoinHook;
         }
 
         public override void AddRecipes()

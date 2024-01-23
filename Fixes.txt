@@ -9,3 +9,23 @@
 - gave the new Junk fishing catches tooltips
 
 - made all crates (except the Jeweled Crate) configurable since all of them (except the Jeweled Crate) were added to vanilla Terraria in 1.4.0.1 "Journey's End"
+
+- obsolete items: HellCrate ("Underworld Crate"),
+                  SandCrate ("Desert Crate"),
+				  SeaCrate ("Ocean Crate"),
+				  Shadow Lockbox,
+				  SnowCrate ("Frozen Crate"),
+				  SizzLine ("Sizzling Line"),
+				  Charred Line
+				  
+- boosted Jewel Fishing Rod from 1% to 40% fishing power
+- boosted Crab Claw bonus while using Jewel Fishing rod from +20 fishing power to +40 fishing power so it feels more rewarding farming crab claws
+- the SonarStick is an accessory but worked when in the inventory. Made it to only work when equipped
+- changed the "Twin Cattail Pole" to add 1 additional line, not doubling all the already available lines
+- the "Enchanted Gnomon" now gives a proper chat message when using the Enchanted Sundial
+- gave the "Honey Boost" and "Lava Boost" a 3 seconds buff time after leaving the respective liquid so it can be used more tactial
+- fixed the "Sporetooth"
+- gave the "Ocarina" some nice use sound
+- balanced the obtained money of the "Coin Hook"
+- created the "Jig Collection", a combination of the 4 existing jigs, for QoL
+- reels now have a small chance to fish an additional crate of the same type - big thanks to "direwolf420" a.k.a "Putan#1022" from tModLoader discord channel <3

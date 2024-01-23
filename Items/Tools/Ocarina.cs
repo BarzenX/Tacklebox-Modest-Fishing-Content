@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.Audio;
 
 namespace Tacklebox.Items.Tools
 {
@@ -16,9 +17,18 @@ namespace Tacklebox.Items.Tools
             Item.CloneDefaults(ItemID.Harp);
             Item.value = 62500;
             Item.rare = ItemRarityID.Green;
+            Item.UseSound = new SoundStyle($"{nameof(Tacklebox)}/Assets/Sounds/Ocarina")
+            {
+                Volume = 0.9f,
+                PitchVariance = 0.2f,
+                MaxInstances = 3,
+            };
+            Item.useTime = 270;
+            Item.useAnimation = 270; //track is 4.5s long
+            Item.useTurn = true;
         }
 
-        public override bool? UseItem(Player player) //TODO: tModPorter Suggestion: Return null instead of false
+        public override bool? UseItem(Player player)
         {
             Main.rainTime = Main.rand.Next(43200, 86400);
             Main.raining = true;

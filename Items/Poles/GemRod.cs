@@ -17,7 +17,7 @@ namespace Tacklebox.Items.Poles
             Item.CloneDefaults(ItemID.WoodFishingPole);
             Item.value = 400000;
             Item.rare = ItemRarityID.Orange;
-            Item.fishingPole = 1;
+            Item.fishingPole = 40;
             Item.shoot = ModContent.ProjectileType<Projectiles.GemBobberP>();
             Item.shootSpeed = 8.0f;
         }

@@ -51,8 +51,8 @@ namespace Tacklebox {
 			ItemID.IronCrateHard,
 			ItemID.GoldenCrateHard
 		};
-		public static List<int> modRod = new(); //TODO: why "List<int>" ?
-        public static List<int> noLava = new( new int[]
+		public static List<int> modRod = new(); //TODO: what's this field for?
+        public static List<int> noLava = new( new int[]  //TODO: what's this field for?
 			{
 			    ItemID.WoodFishingPole,
 			    ItemID.ReinforcedFishingPole,
@@ -61,7 +61,6 @@ namespace Tacklebox {
 			    ItemID.FiberglassFishingPole,
 			    ItemID.MechanicsRod,
 			    ItemID.SittingDucksFishingRod,
-			    ItemID.HotlineFishingHook, //TODO: but this one can fish in lava...
 				ItemID.GoldenFishingRod,
 			    ItemID.ScarabFishingRod,
 			    ItemID.BloodFishingRod
@@ -77,11 +76,5 @@ namespace Tacklebox {
             //             Autoload = true
             //};
         }
-
-		//TODO: What's this for?
-        //private Recipe CreateRecipe()
-        //{
-        //    throw new NotImplementedException();
-        //}
 	}
 }

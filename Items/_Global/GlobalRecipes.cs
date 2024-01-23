@@ -74,9 +74,11 @@ namespace Tacklebox.Items._Global
                 ModContent.ItemType<Fish.Whiskeyfish>()
                 );
 
+            AnyRawFishRecipeGroup.IconicItemId = ItemID.Trout;
+
             // To avoid name collisions, when a modded item is the iconic or 1st item in a recipe group, name the recipe group: ModName:ItemName
             RecipeGroup.RegisterGroup("Tacklebox:AnyJelly", AnyJellyRecipeGroup);
-            RecipeGroup.RegisterGroup("Tacklebox:AnyRawFish", AnyRawFishRecipeGroup); //TODO: testen
+            RecipeGroup.RegisterGroup("Tacklebox:AnyRawFish", AnyRawFishRecipeGroup);
 
 
             // more examples from ExampleMod:

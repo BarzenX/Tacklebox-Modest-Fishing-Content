@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Tacklebox.Items._Global;
 
 namespace Tacklebox.Items.Jigs
 {
@@ -16,7 +17,7 @@ namespace Tacklebox.Items.Jigs
             base.SetDefaults();
             Item.value = 400000;
             Item.rare = ItemRarityID.Yellow;
-            jigType = 2;
+            jigType = JigID.SnowJig;
         }
 
         public override void AddRecipes()

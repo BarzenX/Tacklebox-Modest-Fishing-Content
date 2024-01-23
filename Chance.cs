@@ -18,13 +18,13 @@ namespace Tacklebox
         /// <summary> Returns true in x percent of cases (0 .. x .. 100) </summary>
         public static bool Perc(float x)
         {
-            return (Main.rand.NextFloat() < ( Math.Clamp(x,0f,100f) / 100.0f) ); //TODO: test it
+            return (Main.rand.NextFloat() < ( Math.Clamp(x, 0f, 100f) / 100.0f) );
         }
 
         /// <summary> Returns true in x percent of cases (0 .. x .. 1)</summary>
         public static bool Perc2(float x)
         {
-            return (Main.rand.NextFloat() < Math.Clamp(x, 0f, 1f)); //TODO: test it
+            return (Main.rand.NextFloat() < Math.Clamp(x, 0f, 1f));
         }
     }
 }
