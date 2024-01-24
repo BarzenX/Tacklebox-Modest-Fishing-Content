@@ -9,8 +9,8 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-
             ItemID.Sets.WaterTorches[this.Type] = true;
+            Item.ResearchUnlockCount = 5;
         }
 
         public override void SetDefaults()

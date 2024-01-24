@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-
+            Item.ResearchUnlockCount = 1;
         }
 
         public override void SetDefaults()

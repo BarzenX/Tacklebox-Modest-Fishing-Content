@@ -11,7 +11,7 @@ namespace Tacklebox.Items._Global
 {
     public class GlobalFish : GlobalItem
 	{
-		private static int[] bigFish =
+		private static readonly int[] bigFish =
 		{
 			ItemID.Bass,
 			ItemID.Salmon,

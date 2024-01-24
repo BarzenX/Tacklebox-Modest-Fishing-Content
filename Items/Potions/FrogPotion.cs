@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Potions
     {
         public override void SetStaticDefaults()
         {
-
+            Item.ResearchUnlockCount = 10;
         }
 
         public override void SetDefaults()

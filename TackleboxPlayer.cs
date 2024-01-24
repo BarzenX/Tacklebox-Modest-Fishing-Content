@@ -18,8 +18,6 @@ namespace Tacklebox
 
     public class TackleboxPlayer : ModPlayer
     {
-        public static int globalfPower;
-
         public int globalBait;
 
         /// <summary>
@@ -68,14 +66,8 @@ namespace Tacklebox
 
             else if (fishingRod.type == ModContent.ItemType<Items.Poles.GemRod>())
             {
-                //Main.NewText($"FishLevel: {fishingLevel}");
                 fishingLevel /= 2f;
-                //Main.NewText($"FishLevelAfter: {fishingLevel}");
-                if (bait.type == ModContent.ItemType<Items.Bait.CrabClaw>())
-                {
-                    fishingLevel += 0.40f;
-                    //Main.NewText($"FishLevelAfterBait: {fishingLevel}");
-                }
+                if (bait.type == ModContent.ItemType<Items.Bait.CrabClaw>())   fishingLevel += 0.40f;
             }
 
             else if (fishingRod.type == ModContent.ItemType<Items.Poles.TheZodiac>())
@@ -152,7 +144,6 @@ namespace Tacklebox
             globalBait = baitType;
             int fRodType = attempt.playerFishingConditions.PoleItemType;
             int fPower = attempt.playerFishingConditions.FinalFishingLevel;
-            var source = Main.LocalPlayer.GetSource_FromThis();
 
             #region Junk
             int[] junk = new int[]
@@ -190,7 +181,7 @@ namespace Tacklebox
                 else if (RarityCheck(fPower, 1f))
                 {
                     if (Player.ZoneDesert) itemDrop = ItemID.DesertFossil;
-                    if (Player.ZoneSnow) itemDrop = ItemID.SlushBlock;
+                    else if (Player.ZoneSnow) itemDrop = ItemID.SlushBlock;
                     else itemDrop = ItemID.SiltBlock;
                 }
                 else
@@ -207,7 +198,6 @@ namespace Tacklebox
             if (Tacklebox.allCrates.Contains(itemDrop)) //the to-be-fished itemDrop would be a crate
             {
                 int upgradeCrateChance = reelTier * 10;
-                Main.NewText($"bonusCrateChance  ReelTier Item {itemDrop}");
                 if (Player.FindBuffIndex(ModContent.BuffType<Buffs.BigCrate>()) != -1)
                 {
                     if (Player.FindBuffIndex(BuffID.Crate) != -1) upgradeCrateChance += 10; // the two buffs shall not stack
@@ -216,13 +206,11 @@ namespace Tacklebox
 
                 if (Chance.Perc((float)upgradeCrateChance +5f))
                 {
-                    Main.NewText($"passed Upgrade Step");
                     if ((itemDrop == ItemID.WoodenCrate || itemDrop == ItemID.WoodenCrateHard) && // only wooden crates get upgraded into iron ones (or else it could be a downgrade)
                         (RarityCheck(fPower, 1)) )
                     {
                         itemDrop = ItemID.IronCrate;
                         if (Main.hardMode) itemDrop = ItemID.IronCrateHard;
-                        Main.NewText($"crate upgraded to IronCrate");
                     }
 
                     if ((itemDrop == ItemID.IronCrate || itemDrop == ItemID.IronCrateHard) && // only iron crates can get upgraded into golden ones (or else it could be a downgrade)
@@ -230,14 +218,11 @@ namespace Tacklebox
                     {
                         itemDrop = ItemID.GoldenCrate;
                         if (Main.hardMode) itemDrop = ItemID.GoldenCrateHard;
-                        Main.NewText($"crate upgraded to GoldenCrate");
                     }
 
                     if ((itemDrop == ItemID.GoldenCrate || itemDrop == ItemID.GoldenCrateHard) && // only golden chests can get upgraded into biome crates (or else it could be a downgrade)
                         (RarityCheck(fPower, 2f)))
                     {
-                        Main.NewText($"crate upgraded to BiomeCrate");
-
                         if (Player.ZoneJungle)
                         {
                             itemDrop = ItemID.JungleFishingCrate;
@@ -435,7 +420,6 @@ namespace Tacklebox
                 //Questfish
                 if (specialty && Chance.OneOut(4)) //TODO: maybe add "&& !questFishInInventory" ?
                 {
-                    Main.NewText($"Qustfish");
                     if (Player.ZoneSnow)
                     {
                         if (attempt.heightLevel == 1)
@@ -523,7 +507,7 @@ namespace Tacklebox
             int complete = Player.anglerQuestsFinished;
             if (complete == 1 || Chance.OneOut(40))
             {
-                Item pole = new Item();
+                Item pole = new();
                 pole.SetDefaults(ModContent.ItemType<Items.Poles.JuniorPole>());
                 rewardItems.Add(pole);
             }
@@ -531,14 +515,14 @@ namespace Tacklebox
             {
                 if (Chance.OneOut(8))
                 {
-                    Item bait = new Item();
+                    Item bait = new();
                     bait.SetDefaults(ModContent.ItemType<Items.Bait.SpecialBait>());
                     bait.stack = (int)(1.0f / rareMultiplier) + Main.rand.Next(5);
                     rewardItems.Add(bait);
                 }
                 if (Chance.OneOut(16))
                 {
-                    Item ticket = new Item();
+                    Item ticket = new();
                     ticket.SetDefaults(ModContent.ItemType<Items.QuestTicket>());
                     rewardItems.Add(ticket);
                 }
@@ -547,7 +531,7 @@ namespace Tacklebox
             {
                 if (complete == 100 || Chance.OneOut(100))
                 {
-                    Item pole = new Item();
+                    Item pole = new();
                     pole.SetDefaults(ModContent.ItemType<Items.Poles.XolaRod>());
                     rewardItems.Add(pole);
                 }
@@ -571,9 +555,9 @@ namespace Tacklebox
             {
                 try
                 {
-                    if (Chance.Perc(reelTier*2 + 1)) // put any type of condition here like "thePlayer has some accessory equipped that enables this" + random
+                    if (Chance.Perc(reelTier*2 + 1)) // put any type of condition here like "the Player has some accessory equipped that enables this" or whatever
                     {
-                        Main.NewText($"dropped another item");
+                        //Main.NewText($"dropped another item");
                         //Drop another item (change itemType to something else if you don't want the same item twice)
                         recursive = true;
                         orig(self, thePlayer, itemType);

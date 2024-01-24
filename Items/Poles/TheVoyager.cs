@@ -10,6 +10,8 @@ namespace Tacklebox.Items.Poles
         {
             Tacklebox.modRod.Add(Item.type);
             Tacklebox.noLava.Add(Item.type);
+
+            Item.ResearchUnlockCount = 1;
         }
 
         public override void SetDefaults()

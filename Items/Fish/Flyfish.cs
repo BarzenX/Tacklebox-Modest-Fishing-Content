@@ -8,15 +8,16 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-
+            Item.ResearchUnlockCount = 10;
         }
 
         public override void SetDefaults()
         {
             Item.CloneDefaults(ItemID.FrostDaggerfish);
             Item.shoot = ModContent.ProjectileType<Projectiles.FlyfishP>(); 
-            Item.damage = 6;
-            Item.knockBack = 3.5f;
+            Item.damage = 8;
+            Item.knockBack = 4f;
+            Item.autoReuse = true;
         }
 
         public override void CaughtFishStack(ref int stack)

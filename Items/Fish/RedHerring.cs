@@ -7,10 +7,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-            //
-            //
-            //
-            // .SetDefault("Red Herring");
+            Item.ResearchUnlockCount = 10;
         }
 
         public override void SetDefaults()

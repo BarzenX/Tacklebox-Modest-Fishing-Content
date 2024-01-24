@@ -12,6 +12,8 @@ namespace Tacklebox.Items.Crates
         {
             // Disclaimer for both of these sets (as per their docs): They are only checked for vanilla item IDs, but for cross-mod purposes it would be helpful to set them for modded crates too
             ItemID.Sets.IsFishingCrate[Type] = true;
+
+            Item.ResearchUnlockCount = 5;
         }
 
         public override void SetDefaults()

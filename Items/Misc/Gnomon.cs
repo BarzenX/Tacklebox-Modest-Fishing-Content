@@ -13,6 +13,8 @@ namespace Tacklebox.Items.Misc
         {
             // Step 2: Assign ReducedCooldownMessage to the result of GetLocalization
             ReducedCooldownMessage = this.GetLocalization(nameof(ReducedCooldownMessage));
+
+            Item.ResearchUnlockCount = 5;
         }
 
         public override void SetDefaults()

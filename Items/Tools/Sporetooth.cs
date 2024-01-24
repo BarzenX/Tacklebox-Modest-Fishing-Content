@@ -10,6 +10,8 @@ namespace Tacklebox.Items.Tools
             // As mentioned in the documentation, IsDrill and IsChainsaw automatically reduce useTime and useAnimation to 60% of what is set in SetDefaults and decrease tileBoost by 1, but only for vanilla items.
             // We set it here despite it doing nothing because it is likely to be used by other mods to provide special effects to drill or chainsaw items globally.
             ItemID.Sets.IsChainsaw[Type] = true;
+
+            Item.ResearchUnlockCount = 1;
         }
 
         public override void SetDefaults()

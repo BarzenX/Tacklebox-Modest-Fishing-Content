@@ -8,8 +8,8 @@ namespace Tacklebox.Items
 	{
 		public override void SetStaticDefaults()
 		{
-
-		}
+            Item.ResearchUnlockCount = 5;
+        }
 
 		public override void SetDefaults()
 		{
@@ -40,8 +40,6 @@ namespace Tacklebox.Items
 
             do Main.AnglerQuestSwap();  // happens really rare but sometimes the new quest fish is the same as the old one...
             while (lastQuest == Main.anglerQuest);
-            Main.NewText($"Qust# {Main.anglerQuest}   with fishID {Main.anglerQuestItemNetIDs[Main.anglerQuest]}");
-
         }
 
     }

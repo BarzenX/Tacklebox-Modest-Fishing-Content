@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Fish
     {
         public override void SetStaticDefaults()
         {
-
+            Item.ResearchUnlockCount = 2;
         }
 
         public override void SetDefaults()
@@ -18,6 +18,7 @@ namespace Tacklebox.Items.Fish
             Item.rare = ItemRarityID.Orange;
             Item.maxStack = 1;
             Item.healMana = 60;
+            Item.useStyle = ItemUseStyleID.RaiseLamp;
         }
 
         public override bool ConsumeItem(Player player)

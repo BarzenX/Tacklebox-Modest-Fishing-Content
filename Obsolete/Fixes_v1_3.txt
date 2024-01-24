@@ -1,0 +1,34 @@
+- DrunkWisdom buff gave melee damage instead of magic damage
+- HellCrate had a dropchance for 6..21 NinjaHoods --> changed to HellfireArrows 
+- SandCrate had a dropchance for SnowballCannon and FlurryBoots --> changed them to SandGun and DesertBoots
+- ShadowLockbox had a chance for 15..30 IronBroadswords --> changed to Torch
+- Primordial Yeux, Primordial Nageoires and Primordial Ecailles had no sell value and item rarity declared
+- FulgurShark had a range-plus of 8, reduced to 1
+- made CrabClaw only drop from every tenth crab, if it was spawned by statues
+- extended the tooltip of the Zodiac by 'The brighter the better, the dimmer the slimmer. Normal at half moon' to get an idea of how its fishing power depends on the moon cycle
+- gave the new fishing junk tooltips and made them useable at the extractinator
+
+- deleted all crates (except the Jeweled Crate) since all of them (except the Jeweled Crate) were added to vanilla Terraria in 1.4.0.1 "Journey's End"
+
+- obsolete items: HellCrate ("Underworld Crate"),
+                  SandCrate ("Desert Crate"),
+				  SeaCrate ("Ocean Crate"),
+				  Shadow Lockbox,
+				  SnowCrate ("Frozen Crate"),
+				  SizzLine ("Sizzling Line") because there exists already the "Lavaproof Fishing Hook" in vanilla Terraria,
+				  Charred Line --> was a material in SizzLine
+				  
+- boosted Jewel Fishing Rod from 1% to 40% fishing power so it doesn't fell like a big downgrade from The Voyager
+- boosted Crab Claw bonus while using Jewel Fishing rod from +20 fishing power to +40 fishing power so it feels more rewarding to actually farm crab claws
+- the SonarStick is an accessory but worked when in the inventory. Made it to only work when equipped
+- changed the "Twin Cattail Pole" to add 1 additional line, not doubling all the already available lines
+- the "Enchanted Gnomon" now gives a proper chat message when using the Enchanted Sundial
+- gave the "Honey Boost" and "Lava Boost" a 3 seconds buff time after leaving the respective liquid so it can be used more tactial
+- the "Sporetooth" is now useable
+- gave the "Ocarina" some nice use sound when used
+- balanced the obtained money of the "Coin Hook"
+- created the "Jig Collection", a combination of the 4 existing jigs, for QoL
+- reels now have a small chance to fish an additional crate of the same type - big thanks to "direwolf420" a.k.a "Putan#1022" from tModLoader discord channel <3
+- the described issue "Fishing lines cast from your body instead of the fishing pole when using the new poles" was fixed
+- made the Flyfish projectile stay upward and gave it some dust tiles while flying
+- created food holding sprites (they look nasty, need to be resprited in future...but I'm a horrible spriter)

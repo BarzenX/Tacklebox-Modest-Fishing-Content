@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Tacklebox.Items.Misc;
 
-namespace Tacklebox.Tiles
+namespace Tacklebox.Items._Global
 {
     public class GlobalGnomon : GlobalTile
     {

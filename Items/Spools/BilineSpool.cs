@@ -8,7 +8,7 @@ namespace Tacklebox.Items.Spools
     {
         public override void SetStaticDefaults()
         {
-
+            Item.ResearchUnlockCount = 1;
         }
 
         public override void SetDefaults()

@@ -35,14 +35,14 @@ These are the fixes / changes I made:
 
 Big thanks for Fooksie for creating the original mod and everybody who helped me on the tModLoader "mod-programming-help" channel <3
 
-Disclaimer: I tried to contact Fooksie on the Terraria forums but she never replied. So I took her post (https://forums.terraria.org/index.php?threads/tacklebox-modest-fishing-content.61421/post-1561369) as a permission to reuse her mod.
+Disclaimer: I tried to contact Fooksie on the Terraria forums but she never replied. So I took her [url=https://forums.terraria.org/index.php?threads/tacklebox-modest-fishing-content.61421/post-1561369] post [/url] as a permission to reuse her mod.
 
-
+Github Page: [url=https://github.com/BarzenX/Tacklebox-Modest-Fishing-Content] Link [/url]
 
 
 
 Original mod description:
-Link: https://forums.terraria.org/index.php?threads/tacklebox-modest-fishing-content.61421/
+[url=https://forums.terraria.org/index.php?threads/tacklebox-modest-fishing-content.61421/] Link [/url] to the Terraria forums post
 
 Tacklebox adds a modest amount of supplementary fishing content throughout the game, mainly filling in the gaps left by the vanilla game. This includes...
 

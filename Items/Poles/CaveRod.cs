@@ -9,6 +9,8 @@ namespace Tacklebox.Items.Poles
         {
             Tacklebox.modRod.Add(Item.type);
             ItemID.Sets.CanFishInLava[Item.type] = true;
+
+            Item.ResearchUnlockCount = 1;
         }
 
         public override void SetDefaults()
