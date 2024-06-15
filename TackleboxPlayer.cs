@@ -319,11 +319,11 @@ namespace Tacklebox
             {
                 if (attempt.heightLevel < 2)
                 {
-                    if (fPower < Main.rand.Next(-80, 420)) itemDrop = ModContent.ItemType<Items.Bait.Guppy>();
+                    if (RarityCheck(fPower, 2f)) itemDrop = ModContent.ItemType<Items.Bait.Guppy>();
 
                     if (Player.ZoneRain)
                     {
-                        if (Chance.OneOut(8)) itemDrop = ModContent.ItemType<Items.Fish.Flyfish>();
+                        if (RarityCheck(fPower, 2f)) itemDrop = ModContent.ItemType<Items.Fish.Flyfish>();
                     }
                 }
 
