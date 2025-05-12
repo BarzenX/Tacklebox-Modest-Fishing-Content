@@ -1,4 +1,3 @@
-using Steamworks;
 using Terraria;
 using Terraria.ModLoader;
 

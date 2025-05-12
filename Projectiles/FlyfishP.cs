@@ -1,9 +1,8 @@
-using Terraria.ModLoader;
-using Terraria.ID;
 using Microsoft.Xna.Framework;
-using System.Collections.Generic;
-using Terraria.Audio;
 using Terraria;
+using Terraria.Audio;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Projectiles
 {

@@ -5,6 +5,4 @@
     <AssemblyName>Tacklebox</AssemblyName>
     <LangVersion>10</LangVersion>
   </PropertyGroup>
-  <ItemGroup>
-  </ItemGroup>
 </Project>

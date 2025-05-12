@@ -1,9 +1,6 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
-using Tacklebox.Items.Reels;
-using Tacklebox.Items.Hooks;
-using Tacklebox.Items.Spools;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Accessories
 {

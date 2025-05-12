@@ -1,8 +1,7 @@
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Terraria.Localization;
 using Tacklebox.Items.Misc;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items._Global
 {

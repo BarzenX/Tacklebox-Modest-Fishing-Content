@@ -1,24 +1,17 @@
 using Microsoft.Xna.Framework;
-using System;
 using Terraria;
 using Terraria.DataStructures;
-using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Tacklebox.Items._Global
 {
     public class GlobalMultiLine : GlobalItem
     {
-        public override bool IsLoadingEnabled(Mod mod) //TODO: tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead
-        {
-            return true;
-        }
-
         public override bool Shoot(Item item, Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             if (item.fishingPole != 0 && (Main.myPlayer == player.whoAmI))
             {
-                int playerLineCount = player.GetModPlayer<TackleboxPlayer>().lineCount;
+                int playerLineCount = player.GetModPlayer<TackleboxPlayer>().LineCount;
                 if (item.type == ModContent.ItemType<Poles.TwinPole>())   playerLineCount += 1;
 
                 for (int i = playerLineCount; i > 1; i--) // from right to left because each new bopper will draw it's line in front of the last one...looks prettier that way

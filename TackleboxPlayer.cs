@@ -1,51 +1,46 @@
 using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using Tacklebox.Items._Global;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using System;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Drawing;
-using Terraria.ModLoader.IO;
-using Terraria.GameContent.Golf;
-using Tacklebox.Items._Global;
-using Tacklebox.Items.Hooks;
 
 namespace Tacklebox
 {
 
     public class TackleboxPlayer : ModPlayer
     {
-        public int globalBait;
+        public int GlobalBait;
 
         /// <summary>
         /// Status of the used jigs. Each bit marks an equipped jig --> int values   1=SeaJig, 2=SnowJigh, 4=JungleJig, 8=HellJig, 16=CoinHook
         /// </summary>
-        public int jigSet;
+        public int JigSet;
 
         /// <summary>
         /// The number of lines being cast when using a fishing pole
         /// </summary>
-        public int lineCount;
+        public int LineCount;
 
         /// <summary>
         /// The tier level of the equipped reel. The higher the tier, the bigger the chance of getting more than 1 crate when fishing
         /// </summary>
-        public int reelTier;
+        public int ReelTier;
 
         /// <summary>
         /// The tier level of the equipped hook. Each level increases fishing power by 5
         /// </summary>
-        public int hookTier;
+        public int HookTier;
 
         public override void ResetEffects()
         {
-            jigSet = 0;
-            lineCount = 1;
-            reelTier = 0;
-            hookTier = 0;
+            JigSet = 0;
+            LineCount = 1;
+            ReelTier = 0;
+            HookTier = 0;
         }
 
         public override void GetFishingLevel(Item fishingRod, Item bait, ref float fishingLevel)  // fishingLevel is in %! --> "+5 fishing power" = 0.05f
@@ -56,10 +51,10 @@ namespace Tacklebox
                 if (Player.FindBuffIndex(BuffID.Fishing) != -1) fishingLevel -= 0.15f; //TODO: in theory it's 0.15 but fishingLevel seems to be already affected by daytime...so in this compensation value would need to differ as well!
             }
 
-            if (hookTier > 0)
+            if (HookTier > 0)
             {
                 fishingLevel += 0.05f;
-                if (hookTier > 1) fishingLevel += 0.05f;
+                if (HookTier > 1) fishingLevel += 0.05f;
             }
 
             if (fishingRod.type == ModContent.ItemType<Items.Poles.XolaRod>()) fishingLevel += bait.bait;
@@ -141,7 +136,7 @@ namespace Tacklebox
         public override void CatchFish(FishingAttempt attempt, ref int itemDrop, ref int npcSpawn, ref AdvancedPopupRequest sonar, ref Vector2 sonarPosition)
         {
             int baitType = attempt.playerFishingConditions.Bait.type;
-            globalBait = baitType;
+            GlobalBait = baitType;
             int fRodType = attempt.playerFishingConditions.PoleItemType;
             int fPower = attempt.playerFishingConditions.FinalFishingLevel;
 
@@ -197,7 +192,7 @@ namespace Tacklebox
             #region Bonus crates
             if (Tacklebox.allCrates.Contains(itemDrop)) //the to-be-fished itemDrop would be a crate
             {
-                int upgradeCrateChance = reelTier * 10;
+                int upgradeCrateChance = ReelTier * 10;
                 if (Player.FindBuffIndex(ModContent.BuffType<Buffs.BigCrate>()) != -1)
                 {
                     if (Player.FindBuffIndex(BuffID.Crate) != -1) upgradeCrateChance += 10; // the two buffs shall not stack
@@ -298,10 +293,10 @@ namespace Tacklebox
 
 
 
-            bool jigSea = JigID.CheckJig(jigSet, JigID.SeaJig);
-            bool jigSnow = JigID.CheckJig(jigSet, JigID.SnowJig);
-            bool jigJungle = JigID.CheckJig(jigSet, JigID.JungleJig);
-            bool jigHell = JigID.CheckJig(jigSet, JigID.HellJig);
+            bool jigSea = JigID.CheckJig(JigSet, JigID.SeaJig);
+            bool jigSnow = JigID.CheckJig(JigSet, JigID.SnowJig);
+            bool jigJungle = JigID.CheckJig(JigSet, JigID.JungleJig);
+            bool jigHell = JigID.CheckJig(JigSet, JigID.HellJig);
 
             int questFishID = Main.anglerQuestItemNetIDs[Main.anglerQuest];
             bool specialty = baitType == ModContent.ItemType<Items.Bait.SpecialBait>();
@@ -555,7 +550,7 @@ namespace Tacklebox
             {
                 try
                 {
-                    if (Chance.Perc(reelTier*2 + 1)) // put any type of condition here like "the Player has some accessory equipped that enables this" or whatever
+                    if (Chance.Perc(ReelTier*2 + 1)) // put any type of condition here like "the Player has some accessory equipped that enables this" or whatever
                     {
                         //Main.NewText($"dropped another item");
                         //Drop another item (change itemType to something else if you don't want the same item twice)

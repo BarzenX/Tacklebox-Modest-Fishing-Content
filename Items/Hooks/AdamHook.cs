@@ -1,5 +1,4 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
 
 namespace Tacklebox.Items.Hooks

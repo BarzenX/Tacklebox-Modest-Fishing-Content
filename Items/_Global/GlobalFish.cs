@@ -1,11 +1,7 @@
+using System.Linq;
 using Terraria;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using System.Linq;
-using Mono.Cecil;
-using System.Runtime.InteropServices;
-using System.Collections.Generic;
 
 namespace Tacklebox.Items._Global
 {
@@ -29,22 +25,17 @@ namespace Tacklebox.Items._Global
 			ItemID.Stinkfish
 		};
 
-		public override bool IsLoadingEnabled(Mod mod)//TODO: tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead
-		{
-			return true;
-		}
-
 		public override void CaughtFishStack(int type, ref int stack)
 		{
             TackleboxPlayer player = Main.LocalPlayer.GetModPlayer<TackleboxPlayer>();
-			if(JigID.CheckJig(player.jigSet, JigID.CoinHook))
+			if(JigID.CheckJig(player.JigSet, JigID.CoinHook))
             {
 				var source = Main.LocalPlayer.GetSource_FromThis();
                 Main.LocalPlayer.QuickSpawnItem(source, ItemID.SilverCoin, Main.rand.Next(0, 3));
                 Main.LocalPlayer.QuickSpawnItem(source, ItemID.CopperCoin, Main.rand.Next(0, 100));
             }
 
-            if ( player.globalBait == ModContent.ItemType<Items.Bait.Guppy>() )
+            if ( player.GlobalBait == ModContent.ItemType<Items.Bait.Guppy>() )
 			{
 				if (bigFish.Contains(type))   stack = Main.rand.Next(1, 4);
             }

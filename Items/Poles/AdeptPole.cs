@@ -1,6 +1,6 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Poles
 {
@@ -28,8 +28,8 @@ namespace Tacklebox.Items.Poles
         {
             Recipe recipe = CreateRecipe();
             recipe.AddTile(TileID.Anvils);
-            recipe.AddIngredient(Mod.Find<ModItem>("JuniorPole").Type, 1);
-            recipe.AddRecipeGroup("IronBar", 8);
+            recipe.AddIngredient(ModContent.ItemType<JuniorPole>(), 1);
+            recipe.AddRecipeGroup(RecipeGroupID.IronBar, 8);
             recipe.Register();
         }
     }

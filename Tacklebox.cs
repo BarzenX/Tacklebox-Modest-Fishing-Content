@@ -1,10 +1,6 @@
 using System.Collections.Generic;
-using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
-using System;
-using Terraria.ModLoader.IO;
-using Terraria.Localization;
+using Terraria.ModLoader;
 
 namespace Tacklebox {
 
@@ -66,15 +62,5 @@ namespace Tacklebox {
 			    ItemID.BloodFishingRod
 			}
 		);
-
-		public Tacklebox() 
-		{
-            //TODO: tModPorter Note: Removed. Instead, assign the properties directly (ContentAutoloadingEnabled, GoreAutoloadingEnabled, MusicAutoloadingEnabled, and BackgroundAutoloadingEnabled)
-            //Properties = new ModProperties()
-            //         {
-
-            //             Autoload = true
-            //};
-        }
 	}
 }

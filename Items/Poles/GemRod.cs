@@ -1,6 +1,6 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Poles
 {
@@ -28,7 +28,7 @@ namespace Tacklebox.Items.Poles
         {
             Recipe recipe = CreateRecipe();
             recipe.AddTile(TileID.Anvils);
-            recipe.AddIngredient(Mod.Find<ModItem>("TheVoyager").Type, 1);
+            recipe.AddIngredient(ModContent.ItemType<TheVoyager>(), 1);
             recipe.AddIngredient(ItemID.Amethyst, 16);
             recipe.AddIngredient(ItemID.Topaz, 16);
             recipe.AddIngredient(ItemID.Sapphire, 16);

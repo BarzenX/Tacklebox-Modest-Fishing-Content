@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-
-namespace Tacklebox.Items._Global
+﻿namespace Tacklebox.Items._Global
 {
     internal class JigID
     {

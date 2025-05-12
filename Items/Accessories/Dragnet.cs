@@ -1,6 +1,6 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Accessories
 {
@@ -23,8 +23,8 @@ namespace Tacklebox.Items.Accessories
         {
             Recipe recipe = CreateRecipe();
             recipe.AddTile(TileID.MythrilAnvil);
-            recipe.AddIngredient(ModContent.ItemType<Items.Spools.BilineSpool>(), 1); 
-            recipe.AddIngredient(ModContent.ItemType<Items.Misc.OddString>(), 4); 
+            recipe.AddIngredient(ModContent.ItemType<Spools.BilineSpool>(), 1); 
+            recipe.AddIngredient(ModContent.ItemType<Misc.OddString>(), 4); 
             recipe.Register();
         }
     }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using Terraria;
+﻿using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -9,11 +7,6 @@ namespace Tacklebox.Items._Global
 {
     public class GlobalItemLootChanges : GlobalItem
 	{
-        public override bool IsLoadingEnabled(Mod mod) //TODO: tModPorter Suggestion: If you return false for the purposes of manual loading, use the [Autoload(false)] attribute on your class instead
-        {
-            return true;
-        }
-
         public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
         {
             if ((item.type == ItemID.IronCrate) || (item.type == ItemID.IronCrateHard))

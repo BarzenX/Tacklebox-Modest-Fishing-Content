@@ -25,13 +25,13 @@ namespace Tacklebox.Items._Abstract
 		{
 			TackleboxPlayer modplayer = player.GetModPlayer<TackleboxPlayer>();
 
-            if (jigType != 0)   modplayer.jigSet |= jigType;
-			if(modplayer.hookTier < hookTier)   modplayer.hookTier = hookTier;
-			if(modplayer.reelTier < reelTier)   modplayer.reelTier = reelTier;
-			if(modplayer.lineCount < lineCount)
+            if (jigType != 0)   modplayer.JigSet |= jigType;
+			if(modplayer.HookTier < hookTier)   modplayer.HookTier = hookTier;
+			if(modplayer.ReelTier < reelTier)   modplayer.ReelTier = reelTier;
+			if(modplayer.LineCount < lineCount)
 			{
 				player.accFishingLine = true; // all multilure accessories include the High Test Fishing Line
-				modplayer.lineCount = lineCount;
+				modplayer.LineCount = lineCount;
 			}
 		}
 	}

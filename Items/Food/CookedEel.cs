@@ -1,7 +1,7 @@
 using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
 using Terraria.DataStructures;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Tacklebox.Items.Food
 {

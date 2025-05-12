@@ -1,7 +1,6 @@
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
 using Tacklebox.Items._Global;
+using Terraria;
+using Terraria.ID;
 
 namespace Tacklebox.Items.Jigs
 {
