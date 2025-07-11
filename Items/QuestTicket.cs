@@ -26,6 +26,14 @@ namespace Tacklebox.Items
 
         public override bool? UseItem(Player player)
         {
+            if (Main.netMode == NetmodeID.Server || Main.netMode == NetmodeID.SinglePlayer)
+            {
+                int lastQuest = Main.anglerQuest;
+
+                do Main.AnglerQuestSwap();  // happens really rare but sometimes the new quest fish is the same as the old one...
+                while (lastQuest == Main.anglerQuest);
+            }
+
             return true;
         }
 
@@ -33,14 +41,5 @@ namespace Tacklebox.Items
         {
             return true;
         }
-
-        public override void OnConsumeItem(Player player)
-        {
-            int lastQuest = Main.anglerQuest;
-
-            do Main.AnglerQuestSwap();  // happens really rare but sometimes the new quest fish is the same as the old one...
-            while (lastQuest == Main.anglerQuest);
-        }
-
     }
 }
